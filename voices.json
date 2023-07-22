@@ -1,0 +1,2452 @@
+[
+    {
+        "model_id": "5a431676-de87-4bff-b4ff-40f7e6a7ff09",
+        "name": "daria",
+        "display_name": "[Beavis and Butthead] Daria (by Waltman13)"
+    },
+    {
+        "model_id": "6aa04997-5365-494c-b0e5-04f4d9cbba36",
+        "name": "beavis",
+        "display_name": "[Beavis and Butthead] Beavis (by Waltman13)"
+    },
+    {
+        "model_id": "6b7269d1-4830-4b9f-a5fe-7ca990f3c856",
+        "name": "mutahar",
+        "display_name": "[YouTubers] Mutahar (by Toasty)"
+    },
+    {
+        "model_id": "6615a510-d119-48a5-b790-7c3a63ec2dbe",
+        "name": "hhpay-yumi",
+        "display_name": "[Hi Hi Puffy AmiYumi] Yumi (by Carl da KWASON)"
+    },
+    {
+        "model_id": "eb8d9299-1e3f-4755-b55d-e9946d38a16f",
+        "name": "blameitonjorge",
+        "display_name": "[YouTubers] Blameitonjorge (by BibbyBob)"
+    },
+    {
+        "model_id": "c6988364f71d4f27ae69112aa9619a52",
+        "name": "2pac-chill",
+        "display_name": "[Rappers] 2pac [calm] (by MarioBro)"
+    },
+    {
+        "model_id": "16f3ab95-d546-40ec-8843-ffddc2b0d221",
+        "name": "chills",
+        "display_name": "[YouTubers] Chills (by IBob012)"
+    },
+    {
+        "model_id": "cabd4d39-2d2f-4b6f-9644-a6ef29fc33a9",
+        "name": "larry-veggietales",
+        "display_name": "[Veggietales] Larry (by Waltman13)"
+    },
+    {
+        "model_id": "83299f00-8788-4a29-a103-d60362838dea",
+        "name": "jacksfilms",
+        "display_name": "[YouTubers] jacksfilms (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "7879f3e33e78407c81c915a70ab701a6",
+        "name": "bobross",
+        "display_name": "[Public Figures] Bob Ross (by BibbyBob)"
+    },
+    {
+        "model_id": "f134c3c1-e53a-42ce-9d29-e6c2ba4a45fd",
+        "name": "bugs-bunny",
+        "display_name": "[Looney Tunes] Bugs Bunny (by FrankZ)"
+    },
+    {
+        "model_id": "ec410e92-845b-469e-8054-6251c08cf087",
+        "name": "circus-baby",
+        "display_name": "[Five Nights at Freddy's] Circus Baby (by BibbyBob)"
+    },
+    {
+        "model_id": "f188a745-dd32-4ae8-b135-562d59c34fb0",
+        "name": "sam",
+        "display_name": "[Sam and Max] Sam (by Kosmikist)"
+    },
+    {
+        "model_id": "7ebec411-f6c3-4c01-94ff-f3afa715c98f",
+        "name": "angel-dust",
+        "display_name": "[Hazbin Hotel] Angel Dust"
+    },
+    {
+        "model_id": "ddb44944-fc6d-4f04-81b6-741b7e6d774b",
+        "name": "kani-maki",
+        "display_name": "[Sushi Pack] Kani Maki (by xomdjl_)"
+    },
+    {
+        "model_id": "c7794298-a2fa-48fa-b8ec-b6ceb83cc417",
+        "name": "daily-dose-of-internet",
+        "display_name": "[YouTubers] Daily Dose of Internet (by BibbyBob)"
+    },
+    {
+        "model_id": "3c679262-da80-4036-92be-0d20150c19a0",
+        "name": "gummibar",
+        "display_name": "[Yummy Gummy Search for Santa] Gummibar"
+    },
+    {
+        "model_id": "31e29338800d40c287709c4ec357b78a",
+        "name": "thomas-the-tank",
+        "display_name": "[Thomas & Friends] Thomas the Tank Engine (by Waltman13)"
+    },
+    {
+        "model_id": "74b1138d-c5ca-48e1-8dc5-008d6294a7ca",
+        "name": "makoto-naegi",
+        "display_name": "[Danganronpa] Makoto Naegi (by BibbyBob)"
+    },
+    {
+        "model_id": "c3398f65-da92-4e05-8079-c7933464144d",
+        "name": "theodd1sout",
+        "display_name": "[YouTubers] TheOdd1sOut (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "1611ce15-2a70-4269-a45e-3e83d9fb67d9",
+        "name": "mickey-mouse",
+        "display_name": "[Disney] Mickey Mouse (by Perfectpitcher88)"
+    },
+    {
+        "model_id": "6980e73f-5c37-41fa-85be-4b92d8cd3c4a",
+        "name": "tankman",
+        "display_name": "[Friday Night Funkin'] Tankman"
+    },
+    {
+        "model_id": "ce6b4a55-7aab-4d99-bc22-820fb68b38e8",
+        "name": "principal-of-the-thing",
+        "display_name": "[Baldi's Basics] Principal Of The Thing (by SpongyCake)"
+    },
+    {
+        "model_id": "0fdfe921-31ea-426c-b2cb-97d12f7df410",
+        "name": "hhpay-ami",
+        "display_name": "[Hi Hi Puffy AmiYumi] Ami (by Carl da KWASON)"
+    },
+    {
+        "model_id": "f50d3a9a-cd76-49da-be8b-405db5630994",
+        "name": "duke-nukem",
+        "display_name": "[Duke Nukem] Duke Nukem (by IDDQD_1337)"
+    },
+    {
+        "model_id": "40dabbd5-02e4-4901-b65b-5a48697e4bad",
+        "name": "flushed-away-sid",
+        "display_name": "[Flushed Away] Sid (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "9bcd154f-6e7b-4445-8128-9916506674e3",
+        "name": "max",
+        "display_name": "[Sam and Max] Max (by Kosmikist)"
+    },
+    {
+        "model_id": "2b63e769-0cbc-4547-b6ab-b5b2949ebe14",
+        "name": "fhfif-cheese",
+        "display_name": "[Foster's Home for Imaginary Friends] Cheese (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "7952fde1-a874-46ad-96a0-9123dd5fddb4",
+        "name": "spy",
+        "display_name": "[Team Fortress 2] Spy (by F.B)"
+    },
+    {
+        "model_id": "e7dbd602-442d-4701-88b6-5239a3c97bd1",
+        "name": "carl-wheezer",
+        "display_name": "[Jimmy Neutron] Carl Wheezer (by JacobLenstar)"
+    },
+    {
+        "model_id": "28c23ced-498b-45e4-83f2-7f695ae6c60a",
+        "name": "byakuya-togami",
+        "display_name": "[Danganronpa] Byakuya Togami (by BibbyBob)"
+    },
+    {
+        "model_id": "0bd9ac10-4638-4502-850b-0981c5007226",
+        "name": "mythra-xenoblade",
+        "display_name": "[Xenoblade] Mythra (by Joswag763)"
+    },
+    {
+        "model_id": "41ffac2a-ae76-40e5-83e7-0450b1c2b8f8",
+        "name": "butthead",
+        "display_name": "[Beavis and Butthead] Butthead (by Waltman13)"
+    },
+    {
+        "model_id": "d8ef4e7c-3b0d-4bd7-99a1-1f18a92ca1de",
+        "name": "jotaro-kujo",
+        "display_name": "[JoJo's Bizarre Adventure] Jotaro Kujo (by Kosmikist)"
+    },
+    {
+        "model_id": "6005bb37-3c97-4eae-a66d-a17cbc419238",
+        "name": "riddick",
+        "display_name": "[Chronicles of Riddick] Richard B. Riddick (by IDDQD_1337)"
+    },
+    {
+        "model_id": "956c555b-d925-43d7-8d8e-3692bbd898cf",
+        "name": "james-hetfield",
+        "display_name": "[Musicians] 80s James Hetfield (by Waltman13)"
+    },
+    {
+        "model_id": "a021be69-6d5c-45a1-9a7b-50a20fd2de0a",
+        "name": "chihiro-fujisaki",
+        "display_name": "[Danganronpa] Chihiro Fujisaki (by BibbyBob)"
+    },
+    {
+        "model_id": "382e804e-e726-41a0-9320-e18f46c0c4ec",
+        "name": "john-lennon",
+        "display_name": "[Musicians] John Lennon (speaking) (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "0531bc22-e657-4a79-a54b-531a2227c8e3",
+        "name": "boomerang-announcer",
+        "display_name": "[Boomerang] Announcer (by F.B)"
+    },
+    {
+        "model_id": "4c850e4b-3e82-4912-9074-3ea01a0854ef",
+        "name": "patrick-star",
+        "display_name": "[SpongeBob SquarePants] Patrick Star (by BibbyBob)"
+    },
+    {
+        "model_id": "54c64ae0-5b01-4ec0-b63d-425cfe5e0667",
+        "name": "postal-dude",
+        "display_name": "[Postal 2] Postal Dude (by BibbyBob)"
+    },
+    {
+        "model_id": "e412aa2e-d970-4045-8749-bd3181604d32",
+        "name": "barney-calhoun",
+        "display_name": "[Half Life: Source] Barney Calhoun (by BibbyBob)"
+    },
+    {
+        "model_id": "4e7b7333-3f7a-472c-9d19-d473c33b5a9f",
+        "name": "half-life-scientist",
+        "display_name": "[Half Life: Source] Scientist (By Bibbybob)"
+    },
+    {
+        "model_id": "79f00ec3b93a49cab278f45f9c8c48d1",
+        "name": "mario-fundamentals",
+        "display_name": "[Mario's Game Gallery] Mario (by BibbyBob)"
+    },
+    {
+        "model_id": "24180b56-008a-498d-a3eb-06eefc5bfd28",
+        "name": "bob-veggietales",
+        "display_name": "[Veggietales] Bob (by Waltman13)"
+    },
+    {
+        "model_id": "b928cf35-07dc-4b16-bf0a-ae0fa2d7ac3c",
+        "name": "jeremy-clarkson",
+        "display_name": "[Top Gear] Jeremy Clarkson (by Toasty)"
+    },
+    {
+        "model_id": "c26693ac7b14489dbfacaa4195c98233",
+        "name": "benshapiro",
+        "display_name": "[Public Figures] Ben Shapiro (by Anonymous)"
+    },
+    {
+        "model_id": "27d1e4bfe05841c1a6c22fce90875fff",
+        "name": "jayz",
+        "display_name": "[Rappers] Jay-Z"
+    },
+    {
+        "model_id": "2b18b80029b84243822b2a2392816485",
+        "name": "linustt",
+        "display_name": "[YouTubers] Linus Tech Tips (by anneistaken)"
+    },
+    {
+        "model_id": "a8cc09f2ade24bdcb15f011a9683792e",
+        "name": "medic",
+        "display_name": "[Team Fortress 2] Medic (by F.B)"
+    },
+    {
+        "model_id": "05856c12-deef-40a0-a95b-57ede3d2bb66",
+        "name": "stimpy",
+        "display_name": "[Ren & Stimpy] Stimpy (by Anonymous)"
+    },
+    {
+        "model_id": "8fcf1359672b47e5b50b8b57ada6726b",
+        "name": "garnet",
+        "display_name": "[Steven Universe] Garnet (by F.B)"
+    },
+    {
+        "model_id": "fb7fc74c21f94366afd3769957ea1c85",
+        "name": "glados",
+        "display_name": "[Portal] GlaDOS (by BibbyBob)"
+    },
+    {
+        "model_id": "0864bb6dd8b4483b9f7fb5542678d170",
+        "name": "im-meen",
+        "display_name": "[I.M. Meen] I.M. Meen (by Waltman13)"
+    },
+    {
+        "model_id": "11da53bbf3924819bf2774abe327eba3",
+        "name": "heavy",
+        "display_name": "[Team Fortress 2] Heavy (by F.B)"
+    },
+    {
+        "model_id": "4689daf6a4b740868653f74e28b40727",
+        "name": "jacksepticeye",
+        "display_name": "[YouTubers] Jack Septiceye (by anneistaken)"
+    },
+    {
+        "model_id": "8bdff2d32899485380879bd4e8a5186d",
+        "name": "eminem",
+        "display_name": "[Rappers] Eminem (all eras)"
+    },
+    {
+        "model_id": "9ed34c886b57458d9b1d9245fd571064",
+        "name": "eminem-young",
+        "display_name": "[Rappers] Eminem (pre-Eminem Show)"
+    },
+    {
+        "model_id": "d813ca2dde884d1fa0fec8f57081617d",
+        "name": "eltonjohn",
+        "display_name": "[Musicians] Elton John (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "67124f36d16c443d82c4cd6b25cae269",
+        "name": "eggman",
+        "display_name": "[Sonic The Hedgehog] Eggman (by F.B)"
+    },
+    {
+        "model_id": "b62db5d89b3a4a14a83980a74c429226",
+        "name": "yanderedev",
+        "display_name": "[YouTubers] YandereDev (by anneistaken and Toasty)"
+    },
+    {
+        "model_id": "36ddd0cf41344449b55d8835e3cc8e74",
+        "name": "bubbles",
+        "display_name": "[Powerpuff Girls] Bubbles (by Waltman13)"
+    },
+    {
+        "model_id": "8d4fa7d5065f42b0a93c96286ce2f691",
+        "name": "juicewrld",
+        "display_name": "[Rappers] Juice WRLD (by Anonymous)"
+    },
+    {
+        "model_id": "1f5dfba9026d45cd83a94679054060a2",
+        "name": "demoman",
+        "display_name": "[Team Fortress 2] Demoman (by F.B)"
+    },
+    {
+        "model_id": "320bde922d9f4709b2985ae74c793b07",
+        "name": "bill-cipher",
+        "display_name": "[Gravity Falls] Bill Cipher (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "2e8384d0-085c-465f-8417-7b436555cabf",
+        "name": "markiplier",
+        "display_name": "[YouTubers] Markiplier (by mega b#6696)"
+    },
+    {
+        "model_id": "5c37063f-455a-4153-ad04-b8f6e3f275e4",
+        "name": "donkey-kong",
+        "display_name": "[Donkey Kong Country] Donkey Kong (by matix schooley)"
+    },
+    {
+        "model_id": "2c91ddfaa4f3479492e726e7acf4e711",
+        "name": "2pac",
+        "display_name": "[Rappers] 2pac [intense] (by MarioBro)"
+    },
+    {
+        "model_id": "eea50b5b9a9b4a1eba8f8b2082dd8890",
+        "name": "biggie",
+        "display_name": "[Rappers] Notorious B.I.G."
+    },
+    {
+        "model_id": "7faad7f8-a9bd-4238-a373-17a21bbaab77",
+        "name": "buzz-lightyear",
+        "display_name": "[Toy Story] Buzz Lightyear (by matix schooley)"
+    },
+    {
+        "model_id": "9a628a8b-e4c6-4642-8f05-5d1b1ce759e3",
+        "name": "danny-phantom",
+        "display_name": "[Danny Phantom] Danny Phantom (by n1ct3)"
+    },
+    {
+        "model_id": "c8378d36-137a-4f9e-9dcd-45335fd7d819",
+        "name": "mabel-pines",
+        "display_name": "[Gravity Falls] Mabel Pines (by Waltman13)"
+    },
+    {
+        "model_id": "24f4c873-b458-438a-bb16-7041bf7a3d8a",
+        "name": "spongebob-squarepants",
+        "display_name": "[SpongeBob SquarePants] SpongeBob SquarePants (by thebossgamer1232)"
+    },
+    {
+        "model_id": "ca27c610-5822-46dc-a68f-bad874d969b4",
+        "name": "ss-brawl-announcer",
+        "display_name": "[Super Smash Bros. Brawl] Announcer (By BibbyBob)"
+    },
+    {
+        "model_id": "a7e1d7a661674db1a92b88451501467c",
+        "name": "engineer",
+        "display_name": "[Team Fortress 2] Engineer(by F.B)\t"
+    },
+    {
+        "model_id": "6d6dae31d46d4ad3a33aa4e194bd4c4f",
+        "name": "zuzu",
+        "display_name": "[Zuzubaland] Zuzu (by F.B)"
+    },
+    {
+        "model_id": "f7f10d350cd5443486372515f8a1f6d4",
+        "name": "coco",
+        "display_name": "[Crash Bandicoot] Coco (by F.B)"
+    },
+    {
+        "model_id": "37a40887e03d45458789026bb9628e0e",
+        "name": "steveharvey",
+        "display_name": "[Game Show Host] Steve Harvey"
+    },
+    {
+        "model_id": "0b8568fc-f9db-438a-b7c9-573edcfb8556",
+        "name": "phil-swift",
+        "display_name": "[Public Figures] Phil Swift (by CrazyPlays_HD)\t"
+    },
+    {
+        "model_id": "5df109f4288346609fe2ce93adcba743",
+        "name": "michaelstevens",
+        "display_name": "[YouTubers] Michael Stevens (by CrazyPlays_HD)"
+    },
+    {
+        "model_id": "7f14f4bd5fc640f6ac2493c6630b419a",
+        "name": "trebek",
+        "display_name": "[Game Show Host] Alex Trebek"
+    },
+    {
+        "model_id": "233391d9819642228991b4154d6d8264",
+        "name": "scout",
+        "display_name": "[Team Fortress 2] Scout (by F.B)"
+    },
+    {
+        "model_id": "b8613dbfb5c14ea4b38612573972ffd5",
+        "name": "trent-reznor",
+        "display_name": "[Musicians] Trent Reznor"
+    },
+    {
+        "model_id": "5d2a77e0613f4633823c9683b375250a",
+        "name": "sonic",
+        "display_name": "[Sonic The Hedgehog] Sonic (by F.B)"
+    },
+    {
+        "model_id": "9b250239b8444251ad55c8974aa1873b",
+        "name": "kanye-west-rap",
+        "display_name": "[Rappers] Kanye West (rapping)"
+    },
+    {
+        "model_id": "16882435-c564-4a69-a2bf-6ab9cd1bf56a",
+        "name": "half-life-transit-system",
+        "display_name": "[Half Life: Source] Transit System (By Bibbybob)"
+    },
+    {
+        "model_id": "85647521-3e50-4569-92c6-0033bc090ba3",
+        "name": "david-attenborough",
+        "display_name": "[Public Figures] David Attenborough (by Benjamino)"
+    },
+    {
+        "model_id": "559f4628-6720-4599-9093-f587a994eff6",
+        "name": "alyx-vance",
+        "display_name": "[Half-Life 2] Alyx Vance"
+    },
+    {
+        "model_id": "ed368e9ed2624511809763d780aa9202",
+        "name": "freddiemercury",
+        "display_name": "[Musicians] Freddie Mercury (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "7e9f5dc2-8207-4b5d-a757-576b918168f8",
+        "name": "cd-i-link",
+        "display_name": "[Legend of Zelda] CD-I: Link (by SharpeFan1020)"
+    },
+    {
+        "model_id": "dbe33bd071544ddba40083ad92a6f8bb",
+        "name": "patrickstewart",
+        "display_name": "[Actors] Patrick Stewart"
+    },
+    {
+        "model_id": "7f38072d401b45c39c64578a07492341",
+        "name": "sniper",
+        "display_name": "[Team Fortress 2] Sniper (by F.B)"
+    },
+    {
+        "model_id": "10c4aa05600447b3bf64dc420fd85005",
+        "name": "soldier",
+        "display_name": "[Team Fortress 2] Soldier (by F.B)"
+    },
+    {
+        "model_id": "c57ee6c94e784c458189467b0c17b0c8",
+        "name": "buttercup",
+        "display_name": "[Powerpuff Girls] Buttercup (by Waltman13)"
+    },
+    {
+        "model_id": "73159058ee0e40c49aa0d17bbace83c9",
+        "name": "fdr",
+        "display_name": "[Politicians] Franklin Delano Roosevelt (by BibbyBob)"
+    },
+    {
+        "model_id": "04a351a2826143d8a90bb10a08cf2fcf",
+        "name": "mr-rogers",
+        "display_name": "[Public Figures] Mr. Rogers (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "49865c4d-dcca-442f-be07-59e610299e7b",
+        "name": "e102-gamma",
+        "display_name": "[Sonic The Hedgehog] E-102 Gamma (by F.B)"
+    },
+    {
+        "model_id": "e4a616e7fc2347c69ad72f8809a093b1",
+        "name": "jfk",
+        "display_name": "[Politicians] John F. Kennedy (by BibbyBob)"
+    },
+    {
+        "model_id": "20f146d0-b8a6-468c-9e94-8e74a74d8abf",
+        "name": "thomas-narrator",
+        "display_name": "[Thomas & Friends] Michael Angelis Narrator (by WTLNetwork)"
+    },
+    {
+        "model_id": "a3a668f5-dec6-4db8-b4ad-a8b7c0fccb04",
+        "name": "hunter-spyro",
+        "display_name": "[Spyro 2: Ripto's Rage] Hunter (by JacobLenstar)"
+    },
+    {
+        "model_id": "2284f215-0c07-497a-bdb3-cd6392e906d5",
+        "name": "wallace",
+        "display_name": "[Wallace and Gromit] Wallace (by WTLNetwork)"
+    },
+    {
+        "model_id": "600f2935-b6a3-424c-a937-b4c4e8a1b74a",
+        "name": "baldi",
+        "display_name": "[Baldi's Basics] Baldi (by SpongyCake)"
+    },
+    {
+        "model_id": "0f6e041d-f764-44ce-b3fe-ecc4bc91db62",
+        "name": "fnf-skid",
+        "display_name": "[Friday Night Funkin'] Skid"
+    },
+    {
+        "model_id": "aae848b3-1dff-454c-8a09-7ebc316e909a",
+        "name": "chef",
+        "display_name": "[South Park] Chef (by Waltman13)"
+    },
+    {
+        "model_id": "60ef751d-c0ed-481b-aa96-daab5cdd0a14",
+        "name": "pyra",
+        "display_name": "[Xenoblade] Pyra"
+    },
+    {
+        "model_id": "cb51be94-64ad-4898-b31a-f5e2c537153c",
+        "name": "avgn",
+        "display_name": "[YouTubers] Angry Video Game Nerd (by JacobLenstar)"
+    },
+    {
+        "model_id": "56cf1ea1-ba7c-4152-886d-c6549a1b7da2",
+        "name": "barney",
+        "display_name": "[Barney] Barney the Dinosaur (by RobbieTehRotten)"
+    },
+    {
+        "model_id": "10701427-eeb9-4303-a602-79e9268f6333",
+        "name": "ed",
+        "display_name": "[Ed, Edd n Eddy] Ed (by JacobLenstar)"
+    },
+    {
+        "model_id": "4cdbc6d3-7f47-46ca-bfb0-399052a2898d",
+        "name": "jonny-2x4",
+        "display_name": "[Ed, Edd n Eddy] Jonny 2x4 (by JacobLenstar)"
+    },
+    {
+        "model_id": "adab8d78-79f4-4cd4-aee5-8b2e7a7b3ca2",
+        "name": "dio-brando",
+        "display_name": "[JoJo's Bizarre Adventure] Dio Brando (by Kosmikist)"
+    },
+    {
+        "model_id": "987feee9-d1bc-4362-97ab-2d9c8868ba06",
+        "name": "larry-bundy-jr",
+        "display_name": "[YouTubers] Larry Bundy Jr. (by SidPlays_144p and WTLNetwork)"
+    },
+    {
+        "model_id": "c871a0e4-92e7-4317-aff0-ca8a0be2ddbc",
+        "name": "strong-bad",
+        "display_name": "[Homestar Runner] Strong Bad (by Toasty)"
+    },
+    {
+        "model_id": "45d049ab-9d64-4a1d-9775-4d41904eabe4",
+        "name": "king-k-rool",
+        "display_name": "[Donkey Kong Country] King K. Rool (by Kosmikist)"
+    },
+    {
+        "model_id": "310fc89b-b3d1-4539-bce3-1c1d47d7fa2d",
+        "name": "shaggy",
+        "display_name": "[Scooby Doo] Shaggy Rogers (by JacobLenstar)"
+    },
+    {
+        "model_id": "a07d6070-d4f0-45db-bf23-b195eb33d3b5",
+        "name": "hades",
+        "display_name": "[Hades] Hades (by DatKami)"
+    },
+    {
+        "model_id": "329f049c-107b-453c-9427-4ef2b66f6d61",
+        "name": "bubsy",
+        "display_name": "[Bubsy] Bubsy (by JacobLenstar)"
+    },
+    {
+        "model_id": "76346e3d-ee0b-4856-a762-945aeabc6027",
+        "name": "fish-head",
+        "display_name": "[SpongeBob SquarePants] Realistic Fish Head (by BibbyBob)"
+    },
+    {
+        "model_id": "5b4df42f-7db2-4caa-a08c-c14f6a7af0a6",
+        "name": "meowth",
+        "display_name": "[Pokemon] Meowth (by JacobLenstar)"
+    },
+    {
+        "model_id": "3ab450cc-ec49-4863-8257-6cda2db719e8",
+        "name": "yoshikage-kira",
+        "display_name": "[JoJo's Bizarre Adventure] Yoshikage Kira (by Kosmikist)"
+    },
+    {
+        "model_id": "9857ac49-e44a-48b0-8e67-1eeef1702fa3",
+        "name": "bbbh-bear",
+        "display_name": "[Bear in the Big Blue House] Bear (by BibbyBob)"
+    },
+    {
+        "model_id": "f0a3654c-e264-4e1d-8fda-4f652876964c",
+        "name": "powdered-toast-man",
+        "display_name": "[Ren & Stimpy] Powdered Toast Man (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "a904e2d3-10e7-4fb7-abfd-7c3fd03de5dc",
+        "name": "ren",
+        "display_name": "[Ren & Stimpy] Ren Höek (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "c927e31f-2b6e-4aa8-822d-6f1477d939ac",
+        "name": "facade-grace",
+        "display_name": "[Façade] Grace (by BibbyBob)"
+    },
+    {
+        "model_id": "2af04cb3-9a2d-4030-bd28-5c7f9967ab91",
+        "name": "facade-trip",
+        "display_name": "[Façade] Trip (by BibbyBob)"
+    },
+    {
+        "model_id": "dd7c1f55-f023-4c11-8360-d264fb1cceb5",
+        "name": "hal-9000",
+        "display_name": "[2001: A Space Odyssey] Hal 9000"
+    },
+    {
+        "model_id": "04b701e4-a17c-4985-81a0-1a740885edad",
+        "name": "xp-narrator",
+        "display_name": "[Microsoft] Windows XP Tour Narrator (by RyanTheInkling)"
+    },
+    {
+        "model_id": "dbd006c5-e8da-45e6-9451-a08415413ff7",
+        "name": "barry-b-benson",
+        "display_name": "[Bee Movie] Barry B. Benson (by F.B)"
+    },
+    {
+        "model_id": "e3195ce4-bb0a-471d-917a-3229412ff025",
+        "name": "max-goof",
+        "display_name": "[Disney] Max Goof (by JacobLenstar)"
+    },
+    {
+        "model_id": "189a59e4-be94-405a-a5a5-ab8e9d0ec448",
+        "name": "floppy",
+        "display_name": "[Adventures of Little Koala] Floppy (by RobbieTehRotten)"
+    },
+    {
+        "model_id": "60432cd9-d0d6-41f0-99a6-4fea3353e49f",
+        "name": "rolf",
+        "display_name": "[Ed, Edd n Eddy] Rolf (by JacobLenstar)"
+    },
+    {
+        "model_id": "63726581-96b8-4100-a267-a645cde88140",
+        "name": "sandy-cheeks",
+        "display_name": "[SpongeBob SquarePants] Sandy Cheeks (by JacobLenstar)"
+    },
+    {
+        "model_id": "1dee1547-e902-45f3-a8af-28e7dd14a3e1",
+        "name": "rocko-wallaby",
+        "display_name": "[Rocko's Modern Life] Rocko Wallaby (by BibbyBob)"
+    },
+    {
+        "model_id": "7b0c83a6-1385-478d-8fb3-5b1c25160ddc",
+        "name": "hank-hill",
+        "display_name": "[King of the Hill] Hank Hill (by Anonymous)"
+    },
+    {
+        "model_id": "926856b0-96b4-46c7-a3b6-30ae8a1ec0db",
+        "name": "garfield",
+        "display_name": "[Garfield] Garfield (by BibbyBob)"
+    },
+    {
+        "model_id": "31c0ecf7-d3d6-48a4-9b8e-0d6e45444f27",
+        "name": "parappa",
+        "display_name": "[PaRappa The Rapper] PaRappa the Rapper (by JacobLenstar)"
+    },
+    {
+        "model_id": "9754f851-a935-403d-b9dd-39955017b266",
+        "name": "eleventh-doctor",
+        "display_name": "[Dr. Who] Eleventh Doctor (by lizzythegal)"
+    },
+    {
+        "model_id": "c3f11912-196a-4eb9-8cf9-ee2e52d42cb5",
+        "name": "angelica",
+        "display_name": "[Rugrats] Angelica Pickles (by JacobLenstar)"
+    },
+    {
+        "model_id": "c9b6ab9f-85f7-452d-8c8b-64eca8683865",
+        "name": "mr-krabs",
+        "display_name": "[SpongeBob SquarePants] Mr. Krabs (by JacobLenstar)"
+    },
+    {
+        "model_id": "99fcccb4-403c-4c6a-bf61-2e426101d8c3",
+        "name": "eddy",
+        "display_name": "[Ed, Edd n Eddy] Eddy (by JacobLenstar)"
+    },
+    {
+        "model_id": "910cb0b4-09a1-44ae-b6fb-dd150704727f",
+        "name": "ratchet",
+        "display_name": "[Ratchet & Clank] Ratchet (by HoodyP)"
+    },
+    {
+        "model_id": "da2beec8-4272-4f93-91ca-ed78eee7117a",
+        "name": "big",
+        "display_name": "[Big & Small] Big (by pi and WaffleBowl)"
+    },
+    {
+        "model_id": "35a033c5-f270-4dc9-9ce6-f7e73af251e9",
+        "name": "ninjala-van",
+        "display_name": "[Ninjala] Van (by VladimirHeavy)"
+    },
+    {
+        "model_id": "fe7d5b4d-4943-47c5-afdd-9a2e619da3c4",
+        "name": "robbie-rotten",
+        "display_name": "[LazyTown] Robbie Rotten (by Kosmikist)"
+    },
+    {
+        "model_id": "8501f7f3-3e59-46ef-94d7-ce41c5be9984",
+        "name": "grover",
+        "display_name": "[Sesame Street] Grover (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "79cd3b7f-a0ea-4d10-a1b3-ac30811830b1",
+        "name": "barney-gumble",
+        "display_name": "[The Simpsons] Barney Gumble (by JacobLenstar)"
+    },
+    {
+        "model_id": "c7b10ca7-15cc-4cd4-a49b-d966bd8a57e0",
+        "name": "bfb9",
+        "display_name": "[BFB] Nine"
+    },
+    {
+        "model_id": "1d91e9b7-bca8-42e8-878e-91ae0aa24a61",
+        "name": "captain-lou-albano",
+        "display_name": "[The Super Mario Bros. Super Show] Mario (by JabberHawk and SquareHeadedAs1)"
+    },
+    {
+        "model_id": "4c6704a8-6443-4901-91d0-2c0ca95c3762",
+        "name": "yakko-warner",
+        "display_name": "[Animaniacs] Yakko Warner (by Anonymous)"
+    },
+    {
+        "model_id": "ed7274be-0a5d-49a6-896e-b1e0a47279e0",
+        "name": "plankton",
+        "display_name": "[SpongeBob SquarePants] Plankton (by JacobLenstar)"
+    },
+    {
+        "model_id": "42245b0a-3e15-4e69-bb1d-2afd157ca24b",
+        "name": "cdi-zelda",
+        "display_name": "[Legend of Zelda] CD-I: Zelda (by SharpeFan1020)"
+    },
+    {
+        "model_id": "6c90eef9-0747-486c-bb61-6b8c440afab2",
+        "name": "edd",
+        "display_name": "[Ed, Edd n Eddy] Edd (by JacobLenstar)"
+    },
+    {
+        "model_id": "5cda3d88-3c01-4d1e-b827-0c189e4c8494",
+        "name": "hajime-hinata",
+        "display_name": "[Danganronpa] Hajime Hinata (by BibbyBob)"
+    },
+    {
+        "model_id": "9d42379a-31aa-4682-a815-b4bad5e3644d",
+        "name": "rouge-the-bat",
+        "display_name": "[Sonic The Hedgehog] Rouge The Bat (by SonicToon21)"
+    },
+    {
+        "model_id": "acbf54bc-2095-4ead-b8f5-281ed1aef94c",
+        "name": "the-brain",
+        "display_name": "[Animaniacs] The Brain (by Anonymous)"
+    },
+    {
+        "model_id": "9d71634f-dc1d-432f-ba4d-99dcb0bbe4ac",
+        "name": "dot-warner",
+        "display_name": "[Animaniacs] Dot Warner (by Anonymous)"
+    },
+    {
+        "model_id": "4b57b60c-cfd7-42f9-b9e9-0b6c0da3c451",
+        "name": "clone-high-jfk",
+        "display_name": "[Clone High] John F. Kennedy"
+    },
+    {
+        "model_id": "1b263580-f83d-42f9-87b7-7e22da50ed05",
+        "name": "kyoko-kirigiri",
+        "display_name": "[Danganronpa] Kyoko Kirigiri (by BibbyBob)"
+    },
+    {
+        "model_id": "fd539461-34ed-4151-91d2-021ac4f6ee69",
+        "name": "peter-griffin",
+        "display_name": "[Family Guy] Peter Griffin (by hell inspector)"
+    },
+    {
+        "model_id": "0b2929c2-3c6e-422c-958f-bb27c9e7fc5e",
+        "name": "pinky",
+        "display_name": "[Animaniacs] Pinky (by Anonymous)"
+    },
+    {
+        "model_id": "41b987ff-e3db-4673-b6d4-d3f5fea0efce",
+        "name": "nagito-komaeda",
+        "display_name": "[Danganronpa] Nagito Komaeda (by BibbyBob)"
+    },
+    {
+        "model_id": "7947cb6c-5c2a-4c98-81e2-c3a5ed7599cc",
+        "name": "carl-johnson",
+        "display_name": "[Grand Theft Auto: San Andreas] Carl Johnson (by justinjohn-03)"
+    },
+    {
+        "model_id": "9e1fcc36-a738-44d9-9439-ea215a5add4c",
+        "name": "small",
+        "display_name": "[Big & Small] Small (by pi and WaffleBowl)"
+    },
+    {
+        "model_id": "310cacce-5ad8-48d9-a991-e34b5b108b2b",
+        "name": "ace-bunny",
+        "display_name": "[Loonatics Unleashed] Ace Bunny (by odcub)"
+    },
+    {
+        "model_id": "82b04214-022c-4786-a28e-7ed5322bb5dc",
+        "name": "wario",
+        "display_name": "[Super Mario] Wario (by JacobLenstar)"
+    },
+    {
+        "model_id": "176e0d80-bfce-4ef1-a5bc-c35d4bf5a763",
+        "name": "hotel-mario",
+        "display_name": "[Hotel Mario] Mario (by hell inspector)"
+    },
+    {
+        "model_id": "c3ea2db4-3ec9-4e3b-965a-f9fbe44dd7a8",
+        "name": "dora",
+        "display_name": "[Dora the Explorer] Dora (by BibbyBob)"
+    },
+    {
+        "model_id": "e7a9e405-4061-4288-bf39-3f68731424a1",
+        "name": "kermit",
+        "display_name": "[The Muppet Show] Kermit The Frog (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "4b342fd4-a51a-4333-b64b-287b9cf43efd",
+        "name": "skipper",
+        "display_name": "[Madagascar] Skipper (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "406a538f-12dc-4a1f-a2fa-20b157b9b730",
+        "name": "lisa-loud",
+        "display_name": "[The Loud House] Lisa Loud (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "288d2233-8699-48fa-9091-e833dcee686a",
+        "name": "lincoln-loud",
+        "display_name": "[The Loud House] Lincoln Loud (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "d5d25eea-20e0-47c3-af93-dbf7d8ca2279",
+        "name": "kyu-sugardust",
+        "display_name": "[Huniepop] Kyu Sugardust (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "a3a3e16b-b604-4e80-a4a5-baed90bbf525",
+        "name": "amy-rose",
+        "display_name": "[Sonic The Hedgehog] Amy Rose (by SonicToon21)"
+    },
+    {
+        "model_id": "8ba78eb9-66d3-438d-aeca-8eaec638bc55",
+        "name": "the-gamer-from-mars",
+        "display_name": "[YouTubers] TheGamerFromMars (by JacobLenstar)"
+    },
+    {
+        "model_id": "860c524d-2bf4-4746-b9cd-5f1ec3eeb3fe",
+        "name": "elora",
+        "display_name": "[Spyro 2: Ripto's Rage] Elora (by JacobLenstar)"
+    },
+    {
+        "model_id": "6d8fc258-4f3b-41e9-ae0b-082fa52e4bac",
+        "name": "fred-jones",
+        "display_name": "[Scooby Doo] Fred Jones (by JacobLenstar)"
+    },
+    {
+        "model_id": "ceccad5e-1537-4a6c-81f8-8355204a5674",
+        "name": "kokichi-ouma",
+        "display_name": "[Danganronpa] Kokichi Ouma (by BibbyBob)"
+    },
+    {
+        "model_id": "46fde36d-d419-4941-8725-7ca04dde83f6",
+        "name": "diddy-kong",
+        "display_name": "[Donkey Kong Country] Diddy Kong (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "f03b2184-63fe-43ce-bc07-d927e5c57b19",
+        "name": "roz",
+        "display_name": "[Monsters, Inc.] Roz (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "6bb9a000-b574-4526-b284-ac5695a3da53",
+        "name": "shrek",
+        "display_name": "[Shrek] Shrek (by JacobLenstar)"
+    },
+    {
+        "model_id": "38eec831-6144-40c3-8e82-74269f6ee277",
+        "name": "chiaki-nanami",
+        "display_name": "[Danganronpa] Chiaki Nanami (by BibbyBob)"
+    },
+    {
+        "model_id": "cf2908ac-5294-4469-9626-455ddefa4682",
+        "name": "cream-the-rabbit",
+        "display_name": "[Sonic The Hedgehog] Cream The Rabbit (by SonicToon21)"
+    },
+    {
+        "model_id": "10b5d482-dcde-421e-a1ad-f961b1ca50a8",
+        "name": "kevin",
+        "display_name": "[Ed, Edd n Eddy] Kevin (by Jacoblenstar)"
+    },
+    {
+        "model_id": "7749d893-f33a-40c4-b1af-6db97118dc25",
+        "name": "charlie-brown",
+        "display_name": "[The Peanuts] Charlie Brown (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "a837cf10-ce71-4675-8fa4-7ef8f2e17504",
+        "name": "ralph-wiggum",
+        "display_name": "[The Simpsons] Ralph Wiggum (by Jacoblenstar)"
+    },
+    {
+        "model_id": "1082be2a-4a1c-4c04-ad15-837d5ec196d6",
+        "name": "ringo-starr",
+        "display_name": "[Thomas & Friends] Ringo Starr Narrator (by Waltman13)"
+    },
+    {
+        "model_id": "3dedddef47094ec4af1338095b798fee",
+        "name": "michaelrosen",
+        "display_name": "[Public Figures] Michael Rosen"
+    },
+    {
+        "model_id": "478501e8-df50-4138-aa6e-57e639bcb319",
+        "name": "scooby-doo",
+        "display_name": "[Scooby Doo] Scooby Doo (by Jacoblenstar)"
+    },
+    {
+        "model_id": "1c6327ab-c5ec-412c-8b7f-ba5a6005b37b",
+        "name": "seymour-skinner",
+        "display_name": "[The Simpsons] Seymour Skinner (by Jacoblenstar)"
+    },
+    {
+        "model_id": "57b8cff4-9485-4ef4-ae02-5a5cd112dfd1",
+        "name": "mrs-puff",
+        "display_name": "[SpongeBob SquarePants] Mrs. Puff (by JacobLenstar)"
+    },
+    {
+        "model_id": "6094ca4e-2c8a-47fc-a9b5-81191d3c110e",
+        "name": "weird-al",
+        "display_name": "[Musicians] \"Weird Al\" Yankovic (by JacobLenstar)"
+    },
+    {
+        "model_id": "7d0d3f1d-01be-4366-b0fe-b8583578d8c6",
+        "name": "chalmers",
+        "display_name": "[The Simpsons] Superintendent Chalmers (by Jacoblenstar)"
+    },
+    {
+        "model_id": "315587c7-1f1a-417c-8ed3-6a591f998d0f",
+        "name": "karen-the-computer",
+        "display_name": "[SpongeBob SquarePants] Karen the Computer (by JacobLenstar)"
+    },
+    {
+        "model_id": "e5cda828-59ac-4d02-ae55-56ac16b151b3",
+        "name": "sheen-estevez",
+        "display_name": "[Jimmy Neutron] Sheen Estevez (by JacobLenstar)"
+    },
+    {
+        "model_id": "58ec29af-e6d5-4b1f-9023-d04129066ac8",
+        "name": "comic-book-guy",
+        "display_name": "[The Simpsons] Comic Book Guy (by JacobLenstar)"
+    },
+    {
+        "model_id": "37aa21ba-35ee-47be-80f7-3ad4f06ac08a",
+        "name": "guy-i-am",
+        "display_name": "[Green Eggs & Ham] Guy (by Waltman13)"
+    },
+    {
+        "model_id": "4655bfeb-fc61-4771-a065-6dc6501fb64e",
+        "name": "yahtzee-croshaw",
+        "display_name": "[YouTubers] Yahtzee Croshaw (by Toasty)"
+    },
+    {
+        "model_id": "9b194f0f-396c-47b6-8032-ee37cd425e8c",
+        "name": "nick-valentine",
+        "display_name": "[Fallout] Nick Valentine (by PerroArg)"
+    },
+    {
+        "model_id": "6b93a428-0cf6-4a11-bb8f-26252f762024",
+        "name": "meg-griffin",
+        "display_name": "[Family Guy] Meg Griffin (by SonicToon21)"
+    },
+    {
+        "model_id": "f2b58c70-5724-47c4-9bfa-6e4f4d3b5965",
+        "name": "bfb4",
+        "display_name": "[BFB] Four (by LindosoLord)"
+    },
+    {
+        "model_id": "c74e37c1-9f62-407f-b892-47536aef387f",
+        "name": "fnf-pump",
+        "display_name": "[Friday Night Funkin'] Pump (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "41a6aede-34fd-4de6-9e52-b3b5d238b681",
+        "name": "steven",
+        "display_name": "[Steven Universe] Steven (by BibbyBob)"
+    },
+    {
+        "model_id": "6388c8f7-feb7-4d51-bf67-c8220a93ddc2",
+        "name": "squidward",
+        "display_name": "[SpongeBob SquarePants] Squidward Tentacles (by JacobLenstar)"
+    },
+    {
+        "model_id": "5a0848d0-90f6-4d84-96ce-68cb73ded022",
+        "name": "king-harkinian",
+        "display_name": "[Legend of Zelda] King Harkinian (by Kosmikist)"
+    },
+    {
+        "model_id": "15acfb7e-c6dd-4245-a2ee-72af47cb18b5",
+        "name": "phineas",
+        "display_name": "[Phineas and Ferb] Phineas Flynn (by BibbyBob)"
+    },
+    {
+        "model_id": "708c4080-f47b-4805-ab0e-d458bb43abb8",
+        "name": "rex",
+        "display_name": "[Toy Story] Rex (by JacobLenstar)"
+    },
+    {
+        "model_id": "588c4a67-2cb9-490f-851d-a5801b0375dd",
+        "name": "lisa-simpson",
+        "display_name": "[The Simpsons] Lisa Simpson (by JacobLenstar)"
+    },
+    {
+        "model_id": "6aafe783-342b-415c-b8d6-96fee4910679",
+        "name": "danger-duck",
+        "display_name": "[Loonatics Unleashed] Danger Duck (by odcub)"
+    },
+    {
+        "model_id": "ae6b86c4-e4ee-48d5-b950-76277b41f777",
+        "name": "mr-narrator",
+        "display_name": "[Winnie the Pooh] Narrator (by Lu9)"
+    },
+    {
+        "model_id": "cf8912df-eb8c-46c9-b812-cc8ab3d345c4",
+        "name": "gman",
+        "display_name": "[Half-Life 2] G-Man (by exeros)"
+    },
+    {
+        "model_id": "abe40c06-5578-4402-a4a6-366236462c54",
+        "name": "ko",
+        "display_name": "[OK K.O.] KO (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "e5c56696-268f-4f15-86b6-9178d324f6ac",
+        "name": "bj",
+        "display_name": "[Barney] BJ"
+    },
+    {
+        "model_id": "99d95a0d-88ba-47fa-82df-98fa1494483b",
+        "name": "mf-doom",
+        "display_name": "[Rappers] MF Doom (by angelfacepeanut)"
+    },
+    {
+        "model_id": "c4584f18-30d5-40e4-b16f-4fe172c970e5",
+        "name": "blitz",
+        "display_name": "[Helluva Boss] Blitz"
+    },
+    {
+        "model_id": "f8e03916-7707-4c89-9830-375c3129a159",
+        "name": "pepper-ann",
+        "display_name": "[Pepper Ann] Pepper Ann (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "b4cc3217-e96c-4f38-a36e-76fe52b41fa5",
+        "name": "homer-simpson",
+        "display_name": "[The Simpsons] Homer Simpson (by JacobLenstar)"
+    },
+    {
+        "model_id": "37beb5a0-fdbb-446e-8425-c1616f6b9f32",
+        "name": "hamm",
+        "display_name": "[Toy Story] Hamm (by JacobLenstar)"
+    },
+    {
+        "model_id": "fad198eb-a9f6-44fe-a4b7-fbc7ee29311d",
+        "name": "burt-curtis",
+        "display_name": "[Henry Stickmin] Burt Curtis (by odcub)"
+    },
+    {
+        "model_id": "9a5e534d-f349-4775-9e58-4f08ab09bf88",
+        "name": "pearl",
+        "display_name": "[Steven Universe] Pearl (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "05b4eae7-f3f1-4f93-97b9-82a69e84d13b",
+        "name": "tanya-keys",
+        "display_name": "[Mao Mao: Heroes of Pure Heart] Tanya Keys (by shoopdahoop22)\r\n"
+    },
+    {
+        "model_id": "6900c745-fc6c-49d4-b5de-74ee55eb88db",
+        "name": "bubs",
+        "display_name": "[Homestar Runner] Bubs (by JacobLenstar)"
+    },
+    {
+        "model_id": "5b6d7cf2-bf61-4a43-9adb-d132e07b59ac",
+        "name": "sam-i-am",
+        "display_name": "[Green Eggs & Ham] Sam-I-Am (by Waltman13)"
+    },
+    {
+        "model_id": "2db59d6c-d0f8-461a-9399-63b20915f20b",
+        "name": "mrs-krabappel",
+        "display_name": "[The Simpsons] Edna Krabappel (by JacobLenstar)"
+    },
+    {
+        "model_id": "18c353cd-9047-4a39-97a6-fc5fab52ad59",
+        "name": "ninjala-jane",
+        "display_name": "[Ninjala] Jane (by VladimirHeavy)"
+    },
+    {
+        "model_id": "fbe86cea-612d-4b19-972e-885567490520",
+        "name": "ok-ko-enid",
+        "display_name": "[OK K.O.] Enid (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "e5d7d1ca-1e71-4e64-b98a-bcf52dada624",
+        "name": "teddy-roosevelt",
+        "display_name": "[Politicians] Theodore Roosevelt (by Alexius08)"
+    },
+    {
+        "model_id": "768e42ec-2e3f-4359-bf4f-e8c06952a82b",
+        "name": "french-narrator",
+        "display_name": "[SpongeBob SquarePants] French Narrator (by JacobLenstar)"
+    },
+    {
+        "model_id": "16058100-3925-492d-9b3e-ffbee23960f1",
+        "name": "homestar-runner",
+        "display_name": "[Homestar Runner] Homestar Runner (by Netyasha Roozi)"
+    },
+    {
+        "model_id": "ac6981b9-ac47-4a7a-916b-f361b5294ff3",
+        "name": "elmer-fudd",
+        "display_name": "[Looney Tunes] Elmer Fudd (by JacobLenstar)"
+    },
+    {
+        "model_id": "fd64d693-5a59-48da-811a-03478f64ef49",
+        "name": "moe-szyzlak",
+        "display_name": "[The Simpsons] Moe Szyzlak (by JacobLenstar)"
+    },
+    {
+        "model_id": "0a30d0b1-506d-4074-abce-1c26393cea7c",
+        "name": "tommy-pickles",
+        "display_name": "[Rugrats] Tommy Pickles (by JacobLenstar)"
+    },
+    {
+        "model_id": "c8272203-5003-41df-b4f1-eb03635fdf7d",
+        "name": "steve-irwin",
+        "display_name": "[Public Figures] Steve Irwin (by BibbyBob)"
+    },
+    {
+        "model_id": "1b019432-55f1-4430-ae6f-9da864094686",
+        "name": "jimmy-neutron",
+        "display_name": "[Jimmy Neutron] Jimmy Neutron (by JacobLenstar)"
+    },
+    {
+        "model_id": "5d1e31ed-a333-4e61-8fe2-a0c7a06c320f",
+        "name": "man-ray",
+        "display_name": "[SpongeBob SquarePants] Man Ray (by Gosmokeless28)"
+    },
+    {
+        "model_id": "1cf9b5ef-5868-45fe-96b7-832ac89986e0",
+        "name": "coach-z",
+        "display_name": "[Homestar Runner] Coach Z (by JacobLenstar)"
+    },
+    {
+        "model_id": "b5925485-5828-411d-b4af-f8caf53380e5",
+        "name": "bart-simpson",
+        "display_name": "[The Simpsons] Bart Simpson (by AnthonyFandom70100)"
+    },
+    {
+        "model_id": "235ae764-4190-4b58-8a19-299d16811ee7",
+        "name": "randall-boggs",
+        "display_name": "[Monsters, Inc.] Randall Boggs (by JacobLenstar)"
+    },
+    {
+        "model_id": "362d3ad7-ab5e-4baf-938d-c4c6dbeb56c8",
+        "name": "mr-burns",
+        "display_name": "[The Simpsons] Montgomery Burns (by JacobLenstar)"
+    },
+    {
+        "model_id": "4bacb757-233f-4712-807b-17d7bdbeae53",
+        "name": "milhouse",
+        "display_name": "[The Simpsons] Milhouse Van Houten (by JacobLenstar)"
+    },
+    {
+        "model_id": "cb822dcc-e81f-43fb-b4c8-1a40b846f732",
+        "name": "ash-ketchum",
+        "display_name": "[Pokemon] Ash Ketchum (by JacobLenstar)"
+    },
+    {
+        "model_id": "6840e2a3-9337-4745-aaf5-c4d0f976739f",
+        "name": "nelson-muntz",
+        "display_name": "[The Simpsons] Nelson Muntz (by JacobLenstar)"
+    },
+    {
+        "model_id": "8ba34e56-5bf1-4441-8738-2da949c30f11",
+        "name": "[donkey-kong-64]-rapper-(by-bibbybob)",
+        "display_name": "[Donkey Kong 64] DK Rap (by BibbyBob)"
+    },
+    {
+        "model_id": "c6f21951-3860-4f3f-a390-3f8966d649f7",
+        "name": "timmy-turner",
+        "display_name": "[The Fairly OddParents] Timmy Turner (by Anonymous)"
+    },
+    {
+        "model_id": "abb49254-f8b4-4e1f-8918-bf4b042da5e8",
+        "name": "dr-wallace-breen",
+        "display_name": "[Half-Life 2] Dr. Wallace Breen (by zman991)"
+    },
+    {
+        "model_id": "5e081b0d-9564-4161-8069-ff75394b63c0",
+        "name": "clank",
+        "display_name": "[Ratchet & Clank] Clank (by HoodyP)"
+    },
+    {
+        "model_id": "ebdf1012-dee5-4ffa-822e-d120687941d7",
+        "name": "pit",
+        "display_name": "[Kid Icarus] Pit (by Haycoat)"
+    },
+    {
+        "model_id": "77e41323-1376-47f2-93fc-1aefbe876360",
+        "name": "ring-fit-male",
+        "display_name": "[Ring Fit Adventure] Male Ring (by adam-is-cool-and-stuff)"
+    },
+    {
+        "model_id": "37a774cd-5c97-4b4a-82bd-48346f211e28",
+        "name": "big-bird",
+        "display_name": "[Sesame Street] Big Bird (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "ca8d63aa-7feb-47f3-ba76-3c225ab02b47",
+        "name": "isaac-kleiner",
+        "display_name": "[Half-Life 2] Dr. Isaac Kleiner (by GamingGuy1133)"
+    },
+    {
+        "model_id": "7c1c0308-c16d-45f0-9e0b-c67ad492626e",
+        "name": "dq-lips",
+        "display_name": "[Commercials] Dairy Queen Lips (by Waltman13)"
+    },
+    {
+        "model_id": "a74239eb-7156-41c3-ab60-8a101d13dedb",
+        "name": "niko-bellic",
+        "display_name": "[Grand Theft Auto IV] Niko Bellic (by Anonymous)"
+    },
+    {
+        "model_id": "54855f66-12e7-44c6-be1d-a30701d7385c",
+        "name": "james-may",
+        "display_name": "[Top Gear] James May (by Toasty)"
+    },
+    {
+        "model_id": "4302ede9-8fff-4a95-bf1a-2c13d6f30ac3",
+        "name": "candace-flynn",
+        "display_name": "[Phineas and Ferb] Candace Flynn (by sonictoon21)"
+    },
+    {
+        "model_id": "04d8910e-2f28-4e5b-9f7c-25d37288db33",
+        "name": "king-liang",
+        "display_name": "[YouTubers] plainrock124 (by Sierra Ray)"
+    },
+    {
+        "model_id": "974d53e8-cd37-47c4-9d5c-fe2a46d3a264",
+        "name": "mojo-jojo",
+        "display_name": "[Powerpuff Girls] Mojo Jojo (by JacobLenstar)"
+    },
+    {
+        "model_id": "6a387471-ba9c-458b-ac42-caa9db798d8a",
+        "name": "mr-crocker",
+        "display_name": "[The Fairly OddParents] Denzel Crocker (by Anonymous)"
+    },
+    {
+        "model_id": "e846c5ea-3786-4805-bde9-bcf461f199ed",
+        "name": "marge-simpson",
+        "display_name": "[The Simpsons] Marge Simpson (by JacobLenstar)"
+    },
+    {
+        "model_id": "c2a96666-c529-48d1-946c-ad770da2c11d",
+        "name": "mandark",
+        "display_name": "[Dexter's Laboratory] Mandark (by JacobLenstar)"
+    },
+    {
+        "model_id": "bde2c04d-257a-4b0d-b822-1cf117e92dd3",
+        "name": "professor-utonium",
+        "display_name": "[Powerpuff Girls] Professor Utonium (by JacobLenstar)"
+    },
+    {
+        "model_id": "de25fefc-6f0e-4db0-bd1f-bc473bd63f05",
+        "name": "goofy",
+        "display_name": "[Disney] Goofy (by JacobLenstar)"
+    },
+    {
+        "model_id": "6c832252-89c8-45b1-9a2a-1ea4da6d003c",
+        "name": "super-mario",
+        "display_name": "[Super Mario] Mario (by JacobLenstar)"
+    },
+    {
+        "model_id": "d04a49be-a708-4797-b637-955c60d17022",
+        "name": "cotton-hill",
+        "display_name": "[King of the Hill] Cotton Hill (by hell inspector)"
+    },
+    {
+        "model_id": "041ec9ee-51f3-4b45-9cd2-c4e8e12284f3",
+        "name": "apu",
+        "display_name": "[The Simpsons] Apu Nahasapeemapetilon (by JacobLenstar)"
+    },
+    {
+        "model_id": "f74a2fb5-bd81-4024-9986-46fdaf593666",
+        "name": "daffy-duck",
+        "display_name": "[Looney Tunes] Daffy Duck (by JacobLenstar)"
+    },
+    {
+        "model_id": "4502169d-d733-4332-9019-0d0ed6e2e76e",
+        "name": "mr-peabody",
+        "display_name": "[Rocky and Bullwinkle] Mr. Peabody (by FrankZ)"
+    },
+    {
+        "model_id": "ea1d621d-0287-4cc6-afb9-78f725c7ab74",
+        "name": "private",
+        "display_name": "[Madagascar] Private (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "6adf1ea3-fd83-40a0-996e-5b0d4a5b1c57",
+        "name": "telly",
+        "display_name": "[Sesame Street] Telly (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "f3521e88-811d-43ff-9d7e-b7322913844c",
+        "name": "handunit",
+        "display_name": "[Five Nights at Freddy's] Handunit (by Bibbybob)"
+    },
+    {
+        "model_id": "764f7707-d402-46f5-9367-eac6ed7f72b8",
+        "name": "musse-egret",
+        "display_name": "[Trails of Cold Steel] Musse Egret"
+    },
+    {
+        "model_id": "7febf06d-3f13-47d9-88c3-3413c82bc5db",
+        "name": "ned-flanders",
+        "display_name": "[The Simpsons] Ned Flanders (by JacobLenstar)"
+    },
+    {
+        "model_id": "456d6956-f45a-47ec-be64-86785b6aaaed",
+        "name": "gru",
+        "display_name": "[Despicable Me] Gru (by BibbyBob)"
+    },
+    {
+        "model_id": "c524cceb-33de-4ef9-9137-51868028c18c",
+        "name": "foghorn-leghorn",
+        "display_name": "[Looney Tunes] Foghorn Leghorn (by BibbyBob)"
+    },
+    {
+        "model_id": "e1e46795-30f4-4dc3-b96d-b3b2ddc65fe7",
+        "name": "knuckles",
+        "display_name": "[Sonic The Hedgehog] Knuckles (by ShadowTheBat)"
+    },
+    {
+        "model_id": "cb866522-1268-45ab-84c7-d7917542554e",
+        "name": "benson",
+        "display_name": "[Regular Show] Benson (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "f9541dfe-f78e-44d4-9677-937e0aac8fdf",
+        "name": "daffy-duck-patolino",
+        "display_name": "[Looney Tunes] Brazilian Portuguese Daffy Duck / Patolino (by Lu9)"
+    },
+    {
+        "model_id": "361cddcc-6de9-48ed-9bfe-91263025b06c",
+        "name": "lightning-mcqueen-cool-videos",
+        "display_name": "[The Cool Videos] Lightning McQueen (by Lu9)"
+    },
+    {
+        "model_id": "3b0253fb-4d13-4989-98b9-39108b5d935b",
+        "name": "mike-matei-as-inspector-gadget",
+        "display_name": "[YouTubers] Inspector Gadget (Mike Matei) (by Lu9)"
+    },
+    {
+        "model_id": "a3c1b6cb-4cda-49fe-9be7-373d625a99db",
+        "name": "silver",
+        "display_name": "[Sonic The Hedgehog] Silver The Hedgehog (by ShadowTheBat)"
+    },
+    {
+        "model_id": "a5c3db38-f00c-4d91-8c7d-862bce71ba6f",
+        "name": "mr.-x-(lego-stunt-rally)",
+        "display_name": "[LEGO Stunt Rally] Mr. X (by Lu9)"
+    },
+    {
+        "model_id": "8cab0bf8-b24e-4472-95ea-fa6f5064ab55",
+        "name": "winnie-the-pooh",
+        "display_name": "[Winnie the Pooh] Winnie the Pooh (by Lu9)"
+    },
+    {
+        "model_id": "7690efad-21b0-4b09-9bbd-1225cbcd93a5",
+        "name": "orthopox",
+        "display_name": "[Destroy All Humans!] Orthopox (by odcub)"
+    },
+    {
+        "model_id": "22632fb5-b58b-482f-854b-3e374816bdbb",
+        "name": "cryptosporidium-137",
+        "display_name": "[Destroy All Humans!] Cryptosporidium-137 (by odcub)"
+    },
+    {
+        "model_id": "f8cf91f0-5236-4294-85a6-249641336638",
+        "name": "xbot-4000",
+        "display_name": "[Love Death + Robots] Xbot 4000 (by LordOfPiotr and odcub)"
+    },
+    {
+        "model_id": "bfc91eae-858d-4b1b-ab43-0b6636185a77",
+        "name": "k-vrc",
+        "display_name": "[Love Death + Robots] K-VRC (by justinjohn-03 and odcub)"
+    },
+    {
+        "model_id": "303292a2-dd77-4c16-b1da-c676b82ecc63",
+        "name": "technoblade",
+        "display_name": "[YouTubers] Technoblade (by angelfacepeanut)"
+    },
+    {
+        "model_id": "0515164a-0c46-4d68-8830-c6b5f7ac6919",
+        "name": "dr-doofenshmirtz",
+        "display_name": "[Phineas and Ferb] Dr. Heinz Doofenshmirtz (by justinjohn-03 and Ayyyple)"
+    },
+    {
+        "model_id": "ef81b97c-65c3-489e-b7db-b3ad304e0bb0",
+        "name": "monster",
+        "display_name": "[Friday Night Funkin'] Monster (by Lu9)"
+    },
+    {
+        "model_id": "ff44f2a4-f2db-42f9-977f-e9a480f69f4a",
+        "name": "mr-potato-head",
+        "display_name": "[Toy Story] Mr. Potato Head (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "524504fb-354d-4017-802d-b2cc6fdc05cf",
+        "name": "rick-ross",
+        "display_name": "[Rappers] Rick Ross (by justinjohn-03 and Youngt913)"
+    },
+    {
+        "model_id": "7ffdcdc4-6c35-41db-b68d-d9b58df128c5",
+        "name": "elliot",
+        "display_name": "[Open Season] Elliot (by Carl da KWASON)"
+    },
+    {
+        "model_id": "ffd81991-dce9-4f17-8ca0-c9ba4a629a68",
+        "name": "kowalski",
+        "display_name": "[Madagascar] Kowalski (by Carl da KWASON)"
+    },
+    {
+        "model_id": "d222dcee-4116-43ae-8b80-85929478250d",
+        "name": "shadow",
+        "display_name": "[Sonic The Hedgehog] Shadow (by IBob012)"
+    },
+    {
+        "model_id": "4056e807-a7a5-4974-83c1-48fb3f825ef9",
+        "name": "twilight-sparkle",
+        "display_name": "[My Little Pony] Twilight Sparkle"
+    },
+    {
+        "model_id": "67914434-1947-44d5-acbb-4e8b50ab2b34",
+        "name": "applejack",
+        "display_name": "[My Little Pony] Applejack"
+    },
+    {
+        "model_id": "fef3233f-70be-4b81-b2f4-9ac158c347a7",
+        "name": "fluttershy",
+        "display_name": "[My Little Pony] Fluttershy"
+    },
+    {
+        "model_id": "6b154113-9e91-4d22-9ff8-2cef27f8cf0d",
+        "name": "pinkie-pie",
+        "display_name": "[My Little Pony] Pinkie Pie"
+    },
+    {
+        "model_id": "b07151ac-150b-49e4-8545-3d0939eafdb7",
+        "name": "rarity",
+        "display_name": "[My Little Pony] Rarity"
+    },
+    {
+        "model_id": "9265a42d-c233-44d3-a58d-c739cc7f4957",
+        "name": "rainbow-dash",
+        "display_name": "[My Little Pony] Rainbow Dash"
+    },
+    {
+        "model_id": "2514b8cd-a57e-45cb-8dbb-bb39dfbe7ffb",
+        "name": "mrbeast",
+        "display_name": "[YouTubers] MrBeast (by free-brilliam.de)"
+    },
+    {
+        "model_id": "d0aaa46b-7e31-43d5-ba16-ebe29f16884e",
+        "name": "connie-maheswaran",
+        "display_name": "[Steven Universe] Connie Maheswaran (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "2ecfce1d-464e-4064-bcaf-a484a00fb28e",
+        "name": "razputin-aquato",
+        "display_name": "[Psychonauts] Razputin Aquato (by Datenegassie)"
+    },
+    {
+        "model_id": "434692d1-335b-48ce-beb2-6b4e7c2cabaf",
+        "name": "the-ancestor",
+        "display_name": "[Darkest Dungeon] The Ancestor"
+    },
+    {
+        "model_id": "2f999093-15a6-4095-ac36-852fdfb2b814",
+        "name": "cave-johnson",
+        "display_name": "[Portal] Cave Johnson"
+    },
+    {
+        "model_id": "69ce57f9-bfe6-4d9d-9741-5b50879f286c",
+        "name": "wii-sports-announcer",
+        "display_name": "[Wii Sports] Announcer (by BibbyBob and Wipeoutjack7)"
+    },
+    {
+        "model_id": "03cb9184-9677-4c6b-bf74-3b192bad85d2",
+        "name": "matpat",
+        "display_name": "[YouTubers] MatPat from The Game Theorists (by Sierra Ray)"
+    },
+    {
+        "model_id": "80969579-f18c-498a-8295-f5a49000f1e5",
+        "name": "rec-room-coach",
+        "display_name": "[Rec Room] Coach (by Scramble and JacobLenstar)"
+    },
+    {
+        "model_id": "ad57219e-11a6-4f47-a205-fbf5c0a80867",
+        "name": "rad",
+        "display_name": "[OK K.O.] Rad (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "602e8155-5d9e-469d-8a27-7e2afec937e7",
+        "name": "dr-judith-mossman",
+        "display_name": "[Half-Life 2] Dr. Judith Mossman (by zman991)"
+    },
+    {
+        "model_id": "32e11b60-844d-4d9c-9b46-55c43ad89980",
+        "name": "orc-a",
+        "display_name": "[Dark Messiah of Might & Magic] Orc A (by AI Clone Voices)"
+    },
+    {
+        "model_id": "00807881-4afa-437d-b126-59656944cbde",
+        "name": "john-parker-hammond",
+        "display_name": "[Trespasser: The Lost World] John Parker Hammond"
+    },
+    {
+        "model_id": "c08fabf5-5e63-4184-8c8e-96437451f0f0",
+        "name": "tails-the-fox",
+        "display_name": "[Sonic The Hedgehog] Tails (by ShadowTheBat)"
+    },
+    {
+        "model_id": "e8afc409-e1b5-4e0d-91b7-7ccff32a714f",
+        "name": "johnny-silverhand",
+        "display_name": "[Cyberpunk 2077] Johnny Silverhand (by Awesome Face)"
+    },
+    {
+        "model_id": "284666ed-d8e0-46b6-bdbe-e692454ae53e",
+        "name": "11-45-g",
+        "display_name": "[Love Death + Robots] 11-45-G (by justinjohn-03 and odcub)"
+    },
+    {
+        "model_id": "e6da3196-b741-4a40-8506-de9d21cb7fe5",
+        "name": "kaede-akamatsu",
+        "display_name": "[Danganronpa] Kaede Akamatsu (by BibbyBob)"
+    },
+    {
+        "model_id": "141a9d69-6997-489c-ae35-ee5d7632ac82",
+        "name": "miss-earth",
+        "display_name": "[Pleasant Goat Fun Class] Miss Earth (by NeoTehYoshiNutbrownYTPer)"
+    },
+    {
+        "model_id": "134d933d-e6aa-40d1-b0d1-9a780a21a29a",
+        "name": "billymays",
+        "display_name": "[Public Figures] Billy Mays (by CrazyPlays_HD)"
+    },
+    {
+        "model_id": "b6c8c790-ddb9-43be-99ef-f3178c8cd4f0",
+        "name": "five",
+        "display_name": "[BFB] Five (by Fire Chair)"
+    },
+    {
+        "model_id": "b57224b8-6cd5-4d2c-a0ba-26b71ae962ff",
+        "name": "chuck-e-cheese",
+        "display_name": "[Chuck E. Cheese's] Chuck E. Cheese (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "dfc8bb82-67d6-47ce-bfa4-327d80a6adc3",
+        "name": "space-ghost",
+        "display_name": "[Space Ghost Coast to Coast] Space Ghost (by JacobLenstar)"
+    },
+    {
+        "model_id": "57815510-f079-4c10-9266-58d54233d1dd",
+        "name": "elsa",
+        "display_name": "[Frozen] Elsa (by adam is cool and stuff)"
+    },
+    {
+        "model_id": "ddd37f6a-3085-4b5f-b4e5-f110ba51877d",
+        "name": "palutena",
+        "display_name": "[Kid Icarus] Palutena (by JacobLenstar and Haycoat)"
+    },
+    {
+        "model_id": "223f4895-f69d-47dd-805c-ebbdf1545f5e",
+        "name": "beatrice",
+        "display_name": "[Over The Garden Wall] Beatrice (by Sierra Ray)"
+    },
+    {
+        "model_id": "a99b58ed-ecec-4e15-b7ea-9072005afcb5",
+        "name": "wirt",
+        "display_name": "[Over The Garden Wall] Wirt (by Sierra Ray)"
+    },
+    {
+        "model_id": "bc1d9a7c-189d-4849-8a4c-e81d7bb7c670",
+        "name": "otgw-greg",
+        "display_name": "[Over The Garden Wall] Greg (by Sierra Ray)"
+    },
+    {
+        "model_id": "5d54e2ef-948c-4ea7-b740-705246de4cab",
+        "name": "monokuma",
+        "display_name": "[Danganronpa] Monokuma (by PerroArg)"
+    },
+    {
+        "model_id": "243839c2-4fdc-4ad6-a8ec-aeee22e3a2a5",
+        "name": "freddie-mercury-speaking",
+        "display_name": "[Musicians] Freddie Mercury (Speaking) (by Adam is cool and stuff)"
+    },
+    {
+        "model_id": "aba4569e-09f9-4d32-89c1-713d9107125e",
+        "name": "goro-akechi",
+        "display_name": "[Persona 5] Goro Akechi (by Toasty)"
+    },
+    {
+        "model_id": "c31d2c4e-cbc7-4d0d-8537-91be98855267",
+        "name": "badgerclops",
+        "display_name": "[Mao Mao: Heroes of Pure Heart] Badgerclops (by shoopdahoop22 and EndersVoid)"
+    },
+    {
+        "model_id": "de8e49ad-524a-4c25-905e-86e65730bb82",
+        "name": "adorabat",
+        "display_name": "[Mao Mao: Heroes of Pure Heart] Adorabat (by shoopdahoop22 and EndersVoid)"
+    },
+    {
+        "model_id": "611bb36f-6277-48f4-8fdc-7e1bd0525383",
+        "name": "omni-man",
+        "display_name": "[Invincible] Omni-Man (by Kosmikist)"
+    },
+    {
+        "model_id": "cdd3d461-ed30-4d9f-9d37-e7f7b3e6a5e1",
+        "name": "dave-gahan",
+        "display_name": "[Musicians] Dave Gahan (Depeche Mode) (by Majora101)"
+    },
+    {
+        "model_id": "e3b73029-f502-421c-99d7-667693145bdb",
+        "name": "eminem-freestyle",
+        "display_name": "[Rappers] Eminem (Freestyle) (by iamitz1)"
+    },
+    {
+        "model_id": "7f978eef-f9b7-4af5-a9c2-84143d813b8c",
+        "name": "freddie-benson",
+        "display_name": "[iCarly] Freddie Benson (by BibbyBob)"
+    },
+    {
+        "model_id": "1caf04ad-711d-4988-9d6b-4dcca196f671",
+        "name": "mao-mao",
+        "display_name": "[Mao Mao: Heroes of Pure Heart] Mao Mao (by shoopdahoop22, IBob012 and EndersVoid)"
+    },
+    {
+        "model_id": "99ca4697-dcb7-4ae2-8811-c110025eb08f",
+        "name": "littlefoot",
+        "display_name": "[The Land Before Time] Littlefoot (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "0141e0f3-2212-419d-8a10-fadb62232830",
+        "name": "wakko-warner",
+        "display_name": "[Animaniacs] Wakko Warner (by SonicToon21)"
+    },
+    {
+        "model_id": "7655358e-66cf-4a37-8a66-0f88871de334",
+        "name": "lindsey-thorndyke",
+        "display_name": "[Sonic X] Lindsey Thorndyke (by SonicToon21)"
+    },
+    {
+        "model_id": "501ea282-2830-4b38-bb14-e91757a485f4",
+        "name": "gundham-tanaka",
+        "display_name": "[Danganronpa] Gundham Tanaka (by PerroArg)"
+    },
+    {
+        "model_id": "7353f8ec-6ffe-4c83-a9e0-1d8e728b7860",
+        "name": "sonics-schoolhouse",
+        "display_name": "[Sonic's Schoolhouse] Sonic (by JacobLenstar)"
+    },
+    {
+        "model_id": "2bb6bb77-d063-4eb8-b610-655710bc32d2",
+        "name": "nick-wilde",
+        "display_name": "[Zootopia] Nick Wilde"
+    },
+    {
+        "model_id": "8cd54095-2ed4-4810-afbb-ab637cc5b67a",
+        "name": "minnie-mouse",
+        "display_name": "[Disney] Minnie Mouse (by Perfectpitcher88)"
+    },
+    {
+        "model_id": "3e1c5d70-25bb-4ad8-88b8-25828cad5b34",
+        "name": "mario-fuwa",
+        "display_name": "[UTAU] Mario Fuwa"
+    },
+    {
+        "model_id": "36f64cd6-d3c1-447d-947d-9b21e5c4d40c",
+        "name": "verbal-ase",
+        "display_name": "[YouTubers] Verbal ASE (by SpongyCake)"
+    },
+    {
+        "model_id": "11013547-a773-4507-81fa-bcbe24221c9a",
+        "name": "zephyr",
+        "display_name": "[Tornado Outbreak] Zephyr"
+    },
+    {
+        "model_id": "19905241-e82d-4593-89e9-30314cab5c41",
+        "name": "lenny-leonard",
+        "display_name": "[The Simpsons] Lenny Leonard (by JacobLenstar)"
+    },
+    {
+        "model_id": "26f8c096-a77e-4e3e-8815-a5cd3b3c17c3",
+        "name": "lucy-van-pelt",
+        "display_name": "[The Peanuts] Lucy Van Pelt (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "dcae2af1-b697-4e89-85b2-5056cb2b31da",
+        "name": "jimmy-hopkins",
+        "display_name": "[Bully] Jimmy Hopkins (by doop)"
+    },
+    {
+        "model_id": "895b5a61-630b-41e4-88b1-75874abacb68",
+        "name": "rise-kujikawa",
+        "display_name": "[Persona 4] Rise Kujikawa (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "368d7d48-b51a-4766-8bc3-bd490d0796cb",
+        "name": "pat-sajak",
+        "display_name": "[Game Show Host] Pat Sajak (by BibbyBob)"
+    },
+    {
+        "model_id": "cdc195f1-4451-4b8e-8070-1b119f75e8c9",
+        "name": "carl-carlson",
+        "display_name": "[The Simpsons] Carl Carlson (by JacobLenstar)"
+    },
+    {
+        "model_id": "55d96861-e90c-48bb-bd76-3dc4980edcf3",
+        "name": "nimbus",
+        "display_name": "[Tornado Outbreak] Nimbus (by Zephyr)"
+    },
+    {
+        "model_id": "8aa8c29d-2bed-4db4-908f-33f8d31213c7",
+        "name": "element-animation-villager",
+        "display_name": "[Element Animation] Villager (by Sierra Ray)"
+    },
+    {
+        "model_id": "68d2123e-4485-409d-a2cc-5dd5de3e4ca5",
+        "name": "x",
+        "display_name": "[BFB] X (by LindosoLord)"
+    },
+    {
+        "model_id": "7b69d8f3-36fa-452d-a1cc-9fdb77128ebe",
+        "name": "waylon-smithers",
+        "display_name": "[The Simpsons] Waylon Smithers (by JacobLenstar)"
+    },
+    {
+        "model_id": "620f1c67-f5ca-4540-b54e-9e5843b643fa",
+        "name": "clancy-wiggum",
+        "display_name": "[The Simpsons] Clancy Wiggum (by JacobLenstar)"
+    },
+    {
+        "model_id": "5e0a1838-c472-49ab-ab1b-a1887481faed",
+        "name": "jerma985",
+        "display_name": "[YouTubers] Jerma985"
+    },
+    {
+        "model_id": "be3b527c-bd3a-4f16-b660-9ecd382082fc",
+        "name": "george-carlin",
+        "display_name": "[Thomas & Friends] George Carlin Narrator (by ThomasFan1945 Productions™ Inc.)"
+    },
+    {
+        "model_id": "3ccd67b0-6481-4bff-a2d8-7924e4dc5d10",
+        "name": "chris-thorndyke",
+        "display_name": "[Sonic X] Chris Thorndyke (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "f6e0fabb-9035-4791-bf0c-a7e168978bd3",
+        "name": "wind-warrior",
+        "display_name": "[Tornado Outbreak] Wind Warrior (by Zephyr)"
+    },
+    {
+        "model_id": "9dcd6cfa-bcce-46b9-8abb-cf5b39f7e94a",
+        "name": "fox-mccloud",
+        "display_name": "[Star Fox 64] Fox McCloud (by JacobLenstar)"
+    },
+    {
+        "model_id": "72e5aa72-996a-4dbf-8315-924c0b1b49c8",
+        "name": "wii-sports-club",
+        "display_name": "[Wii Sports Club] Announcer (by Wipeoutjack7)"
+    },
+    {
+        "model_id": "71abe4f7-3fcf-4816-94af-e71e08f20a47",
+        "name": "tomás-rebero-pellejero",
+        "display_name": "[José Mota] Tomás Rebero Pellejero (by gonzaluigi)"
+    },
+    {
+        "model_id": "d270efb8-f038-49bb-91c4-37aab11bf8ef",
+        "name": "ludacris",
+        "display_name": "[Rappers] Ludacris (by justinjohn-03 and Youngt913)"
+    },
+    {
+        "model_id": "5be9e183-f87c-46bb-afcf-8d8470033acc",
+        "name": "2pac-speaking",
+        "display_name": "[Rappers] 2Pac [speaking] (by justinjohn-03)"
+    },
+    {
+        "model_id": "40ebcc9c-af2b-492e-9dfd-ac092cb0daa3",
+        "name": "brazilian-eriol",
+        "display_name": "[Cardcaptor Sakura] Brazilian Portuguese Eriol Hiiragizawa (by rgm and Lu9)"
+    },
+    {
+        "model_id": "c417b044-4858-4da5-ad89-a3ea42a3cb5e",
+        "name": "mordecai",
+        "display_name": "[Regular Show] Mordecai"
+    },
+    {
+        "model_id": "0cbc96a4-7c0a-4a3b-be8b-0b1a960a496b",
+        "name": "king-snugglemagne",
+        "display_name": "[Mao Mao: Heroes of Pure Heart] King Snugglemagne (by shoopdahoop22)"
+    },
+    {
+        "model_id": "69b91a6f-8d19-4684-85a8-5945c9cc2147",
+        "name": "velma",
+        "display_name": "[Scooby Doo] Velma Dinkley (by JacobLenstar)"
+    },
+    {
+        "model_id": "c7aa02ea-60d4-46db-bb3c-53ff7123db1c",
+        "name": "oscar-the-grouch",
+        "display_name": "[Sesame Street] Oscar the Grouch (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "a3fa4a38-1c8e-457e-9363-4add5877f123",
+        "name": "king-julien",
+        "display_name": "[Madagascar] King Julien (by BibbyBob)"
+    },
+    {
+        "model_id": "ebe3b22d-fe0f-48f9-b6c1-b6d1660f7eb8",
+        "name": "shout",
+        "display_name": "[Bomberman Jetters] Shout (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "2e9d45e0-2c23-477a-aad5-b4d6aeaff320",
+        "name": "loona",
+        "display_name": "[Helluva Boss] Loona"
+    },
+    {
+        "model_id": "00733b8c-28ba-4e4f-85dd-1469143c80e0",
+        "name": "michael-de-santa",
+        "display_name": "[Grand Theft Auto V] Michael De Santa (by doop)"
+    },
+    {
+        "model_id": "3ceeaa3c-d696-4f66-b962-1f40934ed150",
+        "name": "abe-simpson",
+        "display_name": "[The Simpsons] Abraham Simpson (by JacobLenstar)"
+    },
+    {
+        "model_id": "533bb192-f1b4-48b8-81b5-2d19d5b45dfe",
+        "name": "jacksucksatlife",
+        "display_name": "[YouTubers] Jacksucksatlife (by Pikachu)"
+    },
+    {
+        "model_id": "50584abb-dbb3-4823-8f93-2f9a643d1bed",
+        "name": "e40",
+        "display_name": "[Rappers] E-40 (by Youngt913)"
+    },
+    {
+        "model_id": "cf6c15c1-72ac-45c9-9a3e-52a1b5eed517",
+        "name": "richard-hammond",
+        "display_name": "[Top Gear] Richard Hammond (by Toasty)"
+    },
+    {
+        "model_id": "ea643f6a-41d0-409d-8894-094748aed020",
+        "name": "cosmo",
+        "display_name": "[The Fairly OddParents] Cosmo (by JacobLenstar)"
+    },
+    {
+        "model_id": "60a45a6d-0054-4e85-b3c2-de16211f2c26",
+        "name": "wanda",
+        "display_name": "[The Fairly OddParents] Wanda (by JacobLenstar)"
+    },
+    {
+        "model_id": "224537f3-daa3-44f8-b20b-0144d29c5030",
+        "name": "stewie-griffin",
+        "display_name": "[Family Guy] Stewie Griffin"
+    },
+    {
+        "model_id": "c97ecabf-10d1-4983-ae78-569abd769eb9",
+        "name": "eugene-from-mao-mao",
+        "display_name": "[Mao Mao: Heroes of Pure Heart] Eugene (by shoopdahoop22)"
+    },
+    {
+        "model_id": "f3c728b6-9cff-4f9a-b6f9-1f2a4ce002ae",
+        "name": "hhpay-kaz",
+        "display_name": "[Hi Hi Puffy AmiYumi] Kaz (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "389a47ae-197c-498b-9dbb-83dcd60d4e13",
+        "name": "boog",
+        "display_name": "[Open Season] Boog (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "1a81c008-1bd4-47fc-bb51-94f4cbc345ac",
+        "name": "trixie",
+        "display_name": "[My Little Pony] Trixie"
+    },
+    {
+        "model_id": "bf69f29c-b3c9-4c62-9167-62b4ed80bda6",
+        "name": "mei",
+        "display_name": "[One Stormy Night] Mei (by HoodyP)"
+    },
+    {
+        "model_id": "0d7ef689-bc5d-4fef-ab1b-363a0a6e3d95",
+        "name": "luna",
+        "display_name": "[My Little Pony] Luna"
+    },
+    {
+        "model_id": "cb92ceb3-1b59-4619-aa0c-c3840073c464",
+        "name": "discord",
+        "display_name": "[My Little Pony] Discord"
+    },
+    {
+        "model_id": "35972d6c-ecae-4cdd-9175-d0aa1ce956dd",
+        "name": "applebloom",
+        "display_name": "[My Little Pony] Applebloom"
+    },
+    {
+        "model_id": "455038d7-11b2-4444-954c-c20cea0f2e1e",
+        "name": "cozy-glow",
+        "display_name": "[My Little Pony] Cozy Glow"
+    },
+    {
+        "model_id": "aa70c40a-082c-44c6-b661-45ec1148dd30",
+        "name": "gumball",
+        "display_name": "[The Amazing World of Gumball] Gumball Watterson (by BibbyBob)"
+    },
+    {
+        "model_id": "137c17c2-b3e6-48f0-ac91-29df7a156166",
+        "name": "rick-sanchez",
+        "display_name": "[Rick and Morty] Rick Sanchez (by iBob012 and Ayyyple)"
+    },
+    {
+        "model_id": "b03ba564-5ddd-4f1d-9ecd-6d6f9a15a574",
+        "name": "strong-mad",
+        "display_name": "[Homestar Runner] Strong Mad (by SidPlays_144p and JacobLenstar)"
+    },
+    {
+        "model_id": "e0497e0c-73fc-4c3d-8234-56c2b72726d6",
+        "name": "professor-oak",
+        "display_name": "[Pokemon] Professor Oak (by JacobLenstar)"
+    },
+    {
+        "model_id": "49bfcc9a-bf91-446d-94ed-393f400a3544",
+        "name": "sora",
+        "display_name": "[Kingdom Hearts] Sora (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "1cb978af-7693-44d3-b7da-04cd4e5e9e06",
+        "name": "quake-3-arena-announcer",
+        "display_name": "[Quake III Arena] Announcer (by IDDQD_1337)"
+    },
+    {
+        "model_id": "14ab4b9c-64e6-4ab2-8875-98dd70b1fc78",
+        "name": "kurzgesagt",
+        "display_name": "[YouTubers] Kurzgesagt (by Pikachu and pi)"
+    },
+    {
+        "model_id": "7d93b232-4f14-447b-b8f1-0b362f335248",
+        "name": "piglet",
+        "display_name": "[Winnie the Pooh] Piglet (by Lu9)"
+    },
+    {
+        "model_id": "f35c473a-1667-4169-bc91-fa6f76f59c89",
+        "name": "tigger",
+        "display_name": "[Winnie the Pooh] Tigger (by Lu9)"
+    },
+    {
+        "model_id": "290850f4-be77-4193-867e-e1924240834f",
+        "name": "francis-left-4-dead",
+        "display_name": "[Left 4 Dead] Francis (by zman991)"
+    },
+    {
+        "model_id": "bf9fb22d-9984-466f-9183-aac6c726ab46",
+        "name": "milla-basset",
+        "display_name": "[Freedom Planet] Milla Basset (by ccateni and Rowster64)"
+    },
+    {
+        "model_id": "3e396b00-3ecc-45de-a7d2-ba1768d91341",
+        "name": "neera-li",
+        "display_name": "[Freedom Planet] Neera Li (by Rowster64)"
+    },
+    {
+        "model_id": "26f13319-9b17-44ba-8ac6-47069da317da",
+        "name": "project-m-announcer",
+        "display_name": "[Project M] Announcer (by LindosoLord)"
+    },
+    {
+        "model_id": "6474969c-7877-4a50-8a08-f71d2a99cbb4",
+        "name": "susie-carmichael",
+        "display_name": "[Rugrats] Susie Carmichael (by JacobLenstar)"
+    },
+    {
+        "model_id": "08ecf4e0-62b0-4f53-b4f9-4b6e3849c700",
+        "name": "shao-kahn",
+        "display_name": "[Mortal Kombat] Shao Kahn (by IDDQD_1337)"
+    },
+    {
+        "model_id": "67c36db9-20bf-4dda-8463-91f9966b0629",
+        "name": "xj-9",
+        "display_name": "[My Life as a Teenage Robot] Jenny Wakeman (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "f7c0d89f-a9bd-4ca5-8b32-39214583356b",
+        "name": "p5-joker",
+        "display_name": "[Persona 5] Joker (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "8001328b-351b-41e9-9853-3f94ed259dc4",
+        "name": "sylvester-the-cat",
+        "display_name": "[Looney Tunes] Sylvester (by JacobLenstar)"
+    },
+    {
+        "model_id": "0d79f524-623d-4bd3-9a4f-ca55cfe9c08c",
+        "name": "franklin-clinton",
+        "display_name": "[Grand Theft Auto V] Franklin Clinton (by doop)"
+    },
+    {
+        "model_id": "226b6090-5c89-40f0-99e5-4a37433c0e26",
+        "name": "chuckie-finster",
+        "display_name": "[Rugrats] Chuckie Finster (by JacobLenstar)"
+    },
+    {
+        "model_id": "a14de79e-8a8c-4942-8632-e301cfdd2add",
+        "name": "paco-bravo",
+        "display_name": "[Actors] Paco Bravo (by gonzaluigi)"
+    },
+    {
+        "model_id": "4b0df423-785f-42b5-838a-e31db5d524ae",
+        "name": "strong-sad",
+        "display_name": "[Homestar Runner] Strong Sad (by SidPlays_144p and JacobLenstar)"
+    },
+    {
+        "model_id": "adf1eca9-0cc1-415a-b1fc-c51ae8bf33b6",
+        "name": "nicole-watterson",
+        "display_name": "[The Amazing World of Gumball] Nicole Watterson (by BibbyBob)"
+    },
+    {
+        "model_id": "fee32a10-ffc4-444f-a7a2-8ddfc0495dd4",
+        "name": "marvin-the-martian",
+        "display_name": "[Looney Tunes] Marvin the Martian (by JacobLenstar)"
+    },
+    {
+        "model_id": "d46d6386-48f0-4b56-81ee-4167e247e92a",
+        "name": "mega-man",
+        "display_name": "[Mega Man] Mega Man (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "3fea8357-cd6f-4f5b-b80e-d8b50902aba9",
+        "name": "martin-prince",
+        "display_name": "[The Simpsons] Martin Prince (by JacobLenstar)"
+    },
+    {
+        "model_id": "ef29a982-b12d-44fb-927c-91f0bc7e53b2",
+        "name": "krusty",
+        "display_name": "[The Simpsons] Krusty the Clown (by JacobLenstar)"
+    },
+    {
+        "model_id": "f79cad04-124b-4f65-b4d0-7719f6c51e8e",
+        "name": "ed-sullivan",
+        "display_name": "[Public Figures] Ed Sullivan"
+    },
+    {
+        "model_id": "67f77535-de09-40ca-8b1d-2b2fab19f489",
+        "name": "looney-tunes-granny",
+        "display_name": "[Looney Tunes] Granny (by JacobLenstar)"
+    },
+    {
+        "model_id": "ce79680b-ee58-4c7d-8982-b0c59b0bc09d",
+        "name": "albert-einstien",
+        "display_name": "[Public Figures] Albert Einstein (by Alexius08)"
+    },
+    {
+        "model_id": "38097b97-0b00-4936-8144-3351216a71b7",
+        "name": "blaze-the-cat",
+        "display_name": "[Sonic The Hedgehog] Blaze the Cat (by shoopdahoop22)"
+    },
+    {
+        "model_id": "2f7f2352-03ba-4eae-8e39-22ab659e6d30",
+        "name": "seven",
+        "display_name": "[BFB] Seven (by Firey)"
+    },
+    {
+        "model_id": "03c106f4-1203-4c05-b702-c9cc074341c4",
+        "name": "chris-mclean",
+        "display_name": "[Total Drama] Chris McLean (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "7f4bcbc5-dc4b-4451-8d69-cfd21b29059a",
+        "name": "kai-lan",
+        "display_name": "[Ni Hao, Kai-Lan] Kai-Lan (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "cce5c710-7706-40cf-9ca2-175a5d70bdb4",
+        "name": "jim-ross",
+        "display_name": "[WWE] Jim Ross (by marconan)"
+    },
+    {
+        "model_id": "d86ae6e8-c9ab-4fa9-9b8f-36422ec053dd",
+        "name": "crusade-announcer",
+        "display_name": "[Super Smash Bros. Crusade] Announcer (by iBob012)"
+    },
+    {
+        "model_id": "599cac8d-a3d1-40c1-aea3-d56a81caf98d",
+        "name": "rigby",
+        "display_name": "[Regular Show] Rigby (by MoarMosspato)"
+    },
+    {
+        "model_id": "00b5d6bc-ad01-4d61-b8f6-4c80abf3bc3e",
+        "name": "crash-bandicoot-csb-promo",
+        "display_name": "[Crash Bandicoot] Crash Bandicoot (Cortex Strikes Back Promo) (by shoopdahoop22)"
+    },
+    {
+        "model_id": "037365e7-4559-407c-90ec-1f2cd8490bc6",
+        "name": "bloo",
+        "display_name": "[Foster's Home for Imaginary Friends] Bloo (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "f7e3c243-c88d-42d6-bdda-89612087fe47",
+        "name": "knux-sonicsong182",
+        "display_name": "[YouTubers] Knux from SonicSong182 (by SonicToon21)"
+    },
+    {
+        "model_id": "dba3cc41-186c-4b97-a698-7c9048c7de2d",
+        "name": "professor-frink",
+        "display_name": "[The Simpsons] Professor Frink (by AnthonyFandom70100)"
+    },
+    {
+        "model_id": "da8efa06-ee44-4e87-aa09-f26db995ca2d",
+        "name": "red-guy",
+        "display_name": "[Cow and Chicken] The Red Guy (by JacobLenstar)"
+    },
+    {
+        "model_id": "2336fd7e-03ed-4269-b382-240ceaaa8758",
+        "name": "drive-thru-whale",
+        "display_name": "[Homestar Runner] Drive-thru Whale (by SidPlays_144p and IDDQD_1337)"
+    },
+    {
+        "model_id": "bb86b715-556f-4d32-a956-fe68b5664971",
+        "name": "chadtronic",
+        "display_name": "[YouTubers] Chadtronic (by Sierra Ray)"
+    },
+    {
+        "model_id": "2ee01aa1-331e-4f0d-b6d3-13202eb213a7",
+        "name": "royce-da-5'9",
+        "display_name": "[Rappers] Royce da 5'9\" (by justinjohn-03)"
+    },
+    {
+        "model_id": "eefe4947-601f-4f5c-83c6-f1b24a1b83a5",
+        "name": "blossom",
+        "display_name": "[Powerpuff Girls] Blossom (by Waltman13)"
+    },
+    {
+        "model_id": "0303ef68-a44f-411c-8f43-ba710c5ddafb",
+        "name": "woody",
+        "display_name": "[Toy Story] Woody (by Waltman13)"
+    },
+    {
+        "model_id": "eec0ab32-6e99-48bb-b55b-59240e89aad1",
+        "name": "resort-owner",
+        "display_name": "[Ratchet & Clank] Resort Owner (by shoopdahoop22)"
+    },
+    {
+        "model_id": "e3b7ab86-2d8d-43de-8e51-dedd5e5bedfe",
+        "name": "fred-durst",
+        "display_name": "[Musicians] Fred Durst (by Marconan)"
+    },
+    {
+        "model_id": "07264408-afe4-4884-a5e6-a142e8fc769e",
+        "name": "reagan",
+        "display_name": "[Politicians] Ronald Reagan (by BibbyBob)"
+    },
+    {
+        "model_id": "0b8b2fb1-12ca-46c1-a476-d6cda758bc09",
+        "name": "larry-the-lobster",
+        "display_name": "[SpongeBob SquarePants] Larry the Lobster (by MoarMosspato)"
+    },
+    {
+        "model_id": "ca738eac-b0ca-4db2-ba7b-0f48468057ca",
+        "name": "cinemasins",
+        "display_name": "[YouTubers] CinemaSins (by Haycoat and TheUndeadQueen)"
+    },
+    {
+        "model_id": "dae10d79-73a2-49ec-8a7c-ed8b56e404a5",
+        "name": "mermaidman",
+        "display_name": "[SpongeBob SquarePants] Mermaid Man (by Perfectpitcher88)"
+    },
+    {
+        "model_id": "fe3c79de-6d76-45be-8bfc-d1a30b26ea87",
+        "name": "narrator-the-stanley-parable",
+        "display_name": "[The Stanley Parable] The Narrator (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "4517576f-74f2-4245-81b8-3199d890f9a1",
+        "name": "stephen-fry",
+        "display_name": "[Actors] Stephen Fry (by Dex)"
+    },
+    {
+        "model_id": "52055636-d69b-494b-919e-d374a656c8c5",
+        "name": "cow",
+        "display_name": "[Cow and Chicken] Cow (by JacobLenstar)"
+    },
+    {
+        "model_id": "3cc58b73-cb1d-49c2-9472-3ed1a11924e9",
+        "name": "pepper-roni",
+        "display_name": "[LEGO Island] Pepper Roni (LEGO Island 2) (by Lu9, Scramble, JacobLenstar and justinjohn-03)"
+    },
+    {
+        "model_id": "961923a1-49a8-4b53-8744-963b973583db",
+        "name": "the-rock",
+        "display_name": "[WWE] Dwayne \"The Rock\" Johnson (by justinjohn-03)"
+    },
+    {
+        "model_id": "8a2452ed-8758-4fee-846a-e16debead010",
+        "name": "[rappers]-lil-jon",
+        "display_name": "[Rappers] Lil Jon (by marconan)"
+    },
+    {
+        "model_id": "3218809f-89f4-4fc0-b381-82a269925fbe",
+        "name": "donkey-kong-singing",
+        "display_name": "[Donkey Kong Country] Donkey Kong (singing) (by Carl Da KWASON)"
+    },
+    {
+        "model_id": "76097c60-bd49-43f2-9c08-d455fdb096a6",
+        "name": "gigguk",
+        "display_name": "[YouTubers] Gigguk (by justinjohn-03)"
+    },
+    {
+        "model_id": "0ec9681b-1a33-4447-bf23-328d114ea69f",
+        "name": "ruff-ruffman",
+        "display_name": "[Fetch! with Ruff Ruffman] Ruff Ruffman (by Waltman13)"
+    },
+    {
+        "model_id": "311eba54-9117-42a7-9066-ae2b187d60d6",
+        "name": "microphone",
+        "display_name": "[Inanimate Insanity] Microphone (by TheUndeadQueen)"
+    },
+    {
+        "model_id": "c02085a9-4898-4e9d-bb58-1d2550ccc5f2",
+        "name": "rob-64",
+        "display_name": "[Star Fox 64] Rob 64 (by JacobLenstar)"
+    },
+    {
+        "model_id": "8c431904-5b9a-4d1b-879c-730785423984",
+        "name": "unikitty",
+        "display_name": "[The LEGO Movie] Unikitty (by Waltman13)"
+    },
+    {
+        "model_id": "fb776ccf-08d0-4284-ac95-29f8750b5ffa",
+        "name": "chicken",
+        "display_name": "[Cow and Chicken] Chicken (by JacobLenstar)"
+    },
+    {
+        "model_id": "0fa79c96-11e8-4f9a-a67e-5fc889241c74",
+        "name": "barnacle-boy",
+        "display_name": "[SpongeBob SquarePants] Barnacle Boy (by SquareHeaded and Jabberhawk)"
+    },
+    {
+        "model_id": "5ca67c88-45f7-43ec-9ab4-134d026e2b7b",
+        "name": "general-pepper",
+        "display_name": "[Star Fox 64] General Pepper (by jacoblenstar)"
+    },
+    {
+        "model_id": "98b50565-5e7c-4d53-bb70-864c00829cfa",
+        "name": "jschlatt",
+        "display_name": "[YouTubers] Jschlatt (by angelfacepeanut, Ayyyple, trained by mega b#6696)"
+    },
+    {
+        "model_id": "001c34f0-ed57-44f8-8b03-8f9b38436c62",
+        "name": "michael-jackson",
+        "display_name": "[Singers] Michael Jackson (talking)"
+    },
+    {
+        "model_id": "13cb7426-d960-4999-83b3-954e68c3d6be",
+        "name": "catwoman",
+        "display_name": "[Batman: Arkham City] Catwoman"
+    },
+    {
+        "model_id": "d2b79e97-76ac-4d0d-8ca9-3adb2d4acc0f",
+        "name": "mium-ethan",
+        "display_name": "[Grant Berrios' Make It Until Morning] Ethan (by Sierra Ray and TheEpicRock7)"
+    },
+    {
+        "model_id": "4380e235-f942-467c-a51f-90c9260234f7",
+        "name": "clyde-mcbride",
+        "display_name": "[The Loud House] Clyde McBride (by Sierra Ray)"
+    },
+    {
+        "model_id": "458b306f-3f47-4e49-9de7-ecb949d68b65",
+        "name": "stella-zhau",
+        "display_name": "[The Loud House] Stella Zhau (by Sierra Ray)"
+    },
+    {
+        "model_id": "6a2d8c36-f594-419a-a845-5dc39a988476",
+        "name": "rita-loud",
+        "display_name": "[The Loud House] Rita Loud (by Sierra Ray)"
+    },
+    {
+        "model_id": "ff72517d-a687-43a3-9cfc-17d72669050b",
+        "name": "mc-ride",
+        "display_name": "[Rappers] MC Ride (by Marconan}"
+    },
+    {
+        "model_id": "0880ff96-87d5-4cf6-8e7d-7dc3baf8184f",
+        "name": "tabbes",
+        "display_name": "[YouTubers] Tabbes (by huangphoux)"
+    },
+    {
+        "model_id": "0c529c12-6e2b-4d67-b71f-8abb8a129b48",
+        "name": "lynn-sr",
+        "display_name": "[The Loud House] Lynn Loud Sr. (by Sierra Ray)"
+    },
+    {
+        "model_id": "65154cf4-52b3-4636-ad2e-96f7a4656594",
+        "name": "mario-sports-mix",
+        "display_name": "[Mario Sports Mix] Mario (by eros71)"
+    },
+    {
+        "model_id": "cfd333d8-fa9c-42df-b213-607ca6cf5b28",
+        "name": "ice-bear",
+        "display_name": "[We Bare Bears] Ice Bear (by Gushiavo_N2)"
+    },
+    {
+        "model_id": "ddba30ce-9e9b-4999-a4de-d5fa10ce6482",
+        "name": "neil-cicierega",
+        "display_name": "[Musicians] Lemon Demon (Neil Cicierega) (by Haycoat)"
+    },
+    {
+        "model_id": "6e100a69-47ea-4e75-a521-71b390ca2594",
+        "name": "kirby-tiff",
+        "display_name": "[Kirby] Tiff (by FrankZ)"
+    },
+    {
+        "model_id": "fdd07fee-5455-4ecc-86c3-04445d2dcddc",
+        "name": "fandroid",
+        "display_name": "[YouTubers] Fandroid (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "0244149e-1fd6-4f06-992a-3898cea615a5",
+        "name": "sid-the-sloth",
+        "display_name": "[Ice Age] Sid (by 𝓩𝓪𝓬𝓱𝓪𝓻𝔂 𝓑𝓪𝓷𝓭𝓲𝓬𝓸𝓸𝓽)"
+    },
+    {
+        "model_id": "2b3b1e4a-a12f-48bc-8d7a-ec1d8fdf2731",
+        "name": "steve-burns",
+        "display_name": "[Blue's Clues] Steve Burns (by BibbyBob)"
+    },
+    {
+        "model_id": "a000a758-567d-4841-87c5-fe70bdbf4e4b",
+        "name": "kanji-tatsumi",
+        "display_name": "[Persona 4] Kanji Tatsumi (by Jeremythepeanutsguy)"
+    },
+    {
+        "model_id": "73ad34ae-416e-43b2-94c1-5e7e2f93dbb9",
+        "name": "alfur-aldric",
+        "display_name": "[Hilda] Alfur Aldric (by Lu9)"
+    },
+    {
+        "model_id": "fef8d8f5-706f-4cf3-b2d5-74b0c0d1da41",
+        "name": "scott-the-woz",
+        "display_name": "[YouTubers] Scott the Woz (by Sierra Ray)"
+    },
+    {
+        "model_id": "76f08f6a-894a-4bd1-9f52-5b922d5134f5",
+        "name": "rick-astley",
+        "display_name": "[Singers] Rick Astley (by Netyasha Roozi and Ayyyple)"
+    },
+    {
+        "model_id": "e6dc98b5-849d-425c-95ed-d78e8d668bde",
+        "name": "dendy",
+        "display_name": "[OK K.O.] Dendy (by SageAwesomeStarAniPicScope)"
+    },
+    {
+        "model_id": "e990c16c-4643-4c64-a11a-ebb1038a9400",
+        "name": "[spongebob-squarepants]-bubble-buddy-(by-jacoblenstar)",
+        "display_name": "[SpongeBob SquarePants] Bubble Buddy (by JacobLenstar)"
+    },
+    {
+        "model_id": "6836bb1e-eb8d-4dc4-b548-266271f27d38",
+        "name": "[spongebob-squarepants]-pearl-(by-gushiavo_n2)",
+        "display_name": "[SpongeBob SquarePants] Pearl (by Gushiavo_N2)"
+    },
+    {
+        "model_id": "14bd9fdd-e404-43d9-b948-8064a3d32da1",
+        "name": "[SpongeBob SquarePants] Old Man Jenkins (by JacobLenstar)",
+        "display_name": "[SpongeBob SquarePants] Old Man Jenkins (by JacobLenstar)"
+    },
+    {
+        "model_id": "de26a8f2-eaff-4267-be12-0939b56ff964",
+        "name": "fernando-costilla",
+        "display_name": "[Actors] Fernando Costilla (by gonzaluigi)"
+    },
+    {
+        "model_id": "d16e3b40-f194-4ed6-935c-aa416405ace0",
+        "name": "yoda",
+        "display_name": "[Star Wars] Yoda (by JustInJohn 03 and Ayyyple)"
+    },
+    {
+        "model_id": "873b4179-5bfa-484e-9065-c056f85164c9",
+        "name": "[spongebob-squarepants]-the-flying-dutchman-(by-waltman13)",
+        "display_name": "[SpongeBob SquarePants] The Flying Dutchman (by Waltman13)"
+    },
+    {
+        "model_id": "bf97bdcc-f332-4cb1-a842-9cae1763f3c1",
+        "name": "mittens",
+        "display_name": "[StoneClan] Mittens (by pi, Haycoat and Sierra Ray)"
+    },
+    {
+        "model_id": "893f25e0-1eee-4a96-b947-f17b4fbf651e",
+        "name": "neil-degrasse-tyson",
+        "display_name": "[Public Figures] Neil deGrasse Tyson (by BibbyBob)"
+    },
+    {
+        "model_id": "4cb5167c-9847-4878-b844-6cc2adc0ea96",
+        "name": "peridot",
+        "display_name": "[Steven Universe] Peridot (by albinobat)"
+    },
+    {
+        "model_id": "67743303-3c46-42d5-a033-be8b942c1c81",
+        "name": "hilda",
+        "display_name": "[Hilda] Hilda (by ReyGGTV)"
+    },
+    {
+        "model_id": "9f26fc88-18a1-41a7-bd26-07fa87fb217e",
+        "name": "snoop-dogg",
+        "display_name": "[Rappers] Snoop Dogg (by justinjohn-03)"
+    },
+    {
+        "model_id": "c6a95366-83bb-48fe-a1c8-8d43cc8f7cce",
+        "name": "zim",
+        "display_name": "[Invader Zim] Zim (by MoarMosspato)"
+    }
+]
