@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387 -->
+<html><script type="text/javascript" src="chrome-extension://mdnleldcmiljblolnjhpnblkcekpdkpa/libs/customElements.js" class="__REQUESTLY__SCRIPT"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./analytics(1).js" type="text/javascript"></script><script type="text/javascript" class="__REQUESTLY__SCRIPT">((namespace) => {
+  const RuleSourceKey = {
+    URL: "Url",
+    HOST: "host",
+    PATH: "path",
+  };
+
+  const RuleSourceOperator = {
+    EQUALS: "Equals",
+    CONTAINS: "Contains",
+    MATCHES: "Matches",
+    WILDCARD_MATCHES: "Wildcard_Matches",
+  };
+
+  const toRegex = (regexStr) => {
+    const matchRegExp = regexStr.match(new RegExp("^/(.+)/(|i|g|ig|gi)$"));
+
+    if (!matchRegExp) {
+      return null;
+    }
+
+    try {
+      return new RegExp(matchRegExp[1], matchRegExp[2]);
+    } catch {
+      return null;
+    }
+  };
+
+  const checkRegexMatch = (regexString, inputString) => {
+    if (!regexString.startsWith("/")) {
+      regexString = `/${regexString}/`; // Keeping enclosing slashes for regex as optional
+    }
+
+    const regex = toRegex(regexString);
+    return regex?.test(inputString);
+  };
+
+  const checkWildCardMatch = (wildCardString, inputString) => {
+    const regexString = "/^" + wildCardString.replaceAll("*", ".*") + "$/";
+    return checkRegexMatch(regexString, inputString);
+  };
+
+  const extractUrlComponent = (url, key) => {
+    const urlObj = new URL(url);
+
+    switch (key) {
+      case RuleSourceKey.URL:
+        return url;
+      case RuleSourceKey.HOST:
+        return urlObj.host;
+      case RuleSourceKey.PATH:
+        return urlObj.pathname;
+    }
+  };
+
+  window[namespace] = window[namespace] || {};
+  window[namespace].matchSourceUrl = (sourceObject, url) => {
+    const urlComponent = extractUrlComponent(url, sourceObject.key);
+    const value = sourceObject.value;
+
+    if (!urlComponent) {
+      return false;
+    }
+
+    switch (sourceObject.operator) {
+      case RuleSourceOperator.EQUALS:
+        if (value === urlComponent) {
+          return true;
+        }
+        break;
+
+      case RuleSourceOperator.CONTAINS:
+        if (urlComponent.indexOf(value) !== -1) {
+          return true;
+        }
+        break;
+
+      case RuleSourceOperator.MATCHES: {
+        return checkRegexMatch(value, urlComponent);
+      }
+
+      case RuleSourceOperator.WILDCARD_MATCHES: {
+        return checkWildCardMatch(value, urlComponent);
+      }
+    }
+
+    return false;
+  };
+})('__REQUESTLY__')</script><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function (namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].requestRules = [];
+  window[namespace].responseRules = [];
+  let isDebugMode = false;
+
+  // Some frames are sandboxes and throw DOMException when accessing localStorage
+  try {
+    isDebugMode = window && window.localStorage && localStorage.isDebugMode;
+  } catch (e) {}
+
+  const isExtensionEnabled = () => {
+    return window[namespace].isExtensionEnabled ?? true;
+  };
+
+  const getAbsoluteUrl = (url) => {
+    const dummyLink = document.createElement("a");
+    dummyLink.href = url;
+    return dummyLink.href;
+  };
+
+  const isNonJsonObject = (obj) => {
+    return [
+      Blob,
+      ArrayBuffer,
+      Object.getPrototypeOf(Uint8Array), // TypedArray instance type
+      DataView,
+      FormData,
+      URLSearchParams,
+    ].some((nonJsonType) => obj instanceof nonJsonType);
+  };
+
+  /**
+   * @param {Object} json
+   * @param {String} path -> "a", "a.b", "a.0.b (If a is an array containing list of objects"
+   * Also copied in shared/utils.js for the sake of testing
+   */
+  const traverseJsonByPath = (jsonObject, path) => {
+    if (!path) return;
+
+    const pathParts = path.split(".");
+
+    try {
+      // Reach the last node but not the leaf node.
+      for (i = 0; i < pathParts.length - 1; i++) {
+        jsonObject = jsonObject[pathParts[i]];
+      }
+
+      return jsonObject[pathParts[pathParts.length - 1]];
+    } catch (e) {
+      /* Do nothing */
+    }
+  };
+
+  const matchesSourceFilters = ({ requestData, method }, sourceFilters) => {
+    const sourceFiltersArray = Array.isArray(sourceFilters) ? sourceFilters : [sourceFilters];
+
+    return (
+      !sourceFiltersArray.length ||
+      sourceFiltersArray.some((sourceFilter) => {
+        if (sourceFilter?.requestMethod?.length && !sourceFilter.requestMethod.includes(method)) {
+          return false;
+        }
+
+        let requestPayloadFilter = sourceFilter?.requestPayload;
+
+        if (!requestPayloadFilter) return true;
+        if (typeof requestPayloadFilter === "object" && Object.keys(requestPayloadFilter).length === 0) return true;
+
+        // We only allow request payload targeting when requestData is JSON
+        if (!requestData || typeof requestData !== "object") return false;
+        if (Object.keys(requestData).length === 0) return false;
+
+        requestPayloadFilter = requestPayloadFilter || {};
+        const targettedKey = requestPayloadFilter?.key;
+
+        // tagettedKey is the json path e.g. a.b.0.c
+        if (targettedKey) {
+          const valueInRequestData = traverseJsonByPath(requestData, targettedKey);
+          return valueInRequestData == requestPayloadFilter?.value;
+        }
+
+        return false;
+      })
+    );
+  };
+
+  const matchRuleSource = ({ url, requestData, method }, rule) => {
+    const modification = rule.pairs[0];
+    const ruleSource = modification.source;
+
+    return (
+      window[namespace].matchSourceUrl(ruleSource, url) &&
+      matchesSourceFilters({ requestData, method }, ruleSource?.filters)
+    );
+  };
+
+  const getRequestRule = (url) => {
+    if (!isExtensionEnabled()) {
+      return null;
+    }
+
+    return window[namespace].requestRules.findLast((rule) =>
+      window[namespace].matchSourceUrl(rule.pairs[0].source, url)
+    );
+  };
+
+  const getResponseRule = ({ url, requestData, method }) => {
+    if (!isExtensionEnabled()) {
+      return null;
+    }
+
+    return window[namespace].responseRules.findLast((rule) => {
+      return matchRuleSource({ url, requestData, method }, rule);
+    });
+  };
+
+  const shouldServeResponseWithoutRequest = (responseRule) => {
+    const responseModification = responseRule.pairs[0].response;
+    return responseModification.type === "static" && responseModification.serveWithoutRequest;
+  };
+
+  const getFunctionFromCode = (code) => {
+    return new Function("args", `return (${code})(args);`);
+  };
+
+  const getCustomRequestBody = (requestRule, args) => {
+    const modification = requestRule.pairs[0].request;
+    if (modification.type === "static") {
+      requestBody = modification.value;
+    } else {
+      requestBody = getFunctionFromCode(modification.value)(args);
+    }
+
+    if (typeof requestBody !== "object" || isNonJsonObject(requestBody)) {
+      return requestBody;
+    }
+
+    return JSON.stringify(requestBody);
+  };
+
+  /**
+   * @param mightBeJSONString string which might be JSON String or normal String
+   * @param doStrictCheck should return empty JSON if invalid JSON string
+   */
+  const jsonifyValidJSONString = (mightBeJSONString, doStrictCheck) => {
+    const defaultValue = doStrictCheck ? {} : mightBeJSONString;
+
+    if (typeof mightBeJSONString !== "string") {
+      return defaultValue;
+    }
+
+    try {
+      return JSON.parse(mightBeJSONString);
+    } catch (e) {
+      /* Do Nothing. Unable to parse the param value */
+    }
+
+    return defaultValue;
+  };
+
+  const isJSON = (data) => {
+    const parsedJson = jsonifyValidJSONString(data);
+    return parsedJson !== data; // if data is not a JSON, jsonifyValidJSONString() returns same value
+  };
+
+  const notifyRequestRuleApplied = (message) => {
+    window.postMessage(
+      {
+        from: "requestly",
+        type: "request_rule_applied",
+        id: message.ruleDetails.id,
+        requestDetails: message["requestDetails"],
+      },
+      window.location.href
+    );
+  };
+
+  const notifyResponseRuleApplied = (message) => {
+    window.postMessage(
+      {
+        from: "requestly",
+        type: "response_rule_applied",
+        id: message.rule.id,
+        requestDetails: message["requestDetails"],
+      },
+      window.location.href
+    );
+  };
+
+  const isPromise = (obj) =>
+    !!obj && (typeof obj === "object" || typeof obj === "function") && typeof obj.then === "function";
+
+  const isContentTypeJSON = (contentType) => !!contentType?.includes("application/json");
+
+  // Intercept XMLHttpRequest
+  const onReadyStateChange = async function () {
+    if (this.readyState === this.HEADERS_RECEIVED || this.readyState === this.DONE) {
+      if (!this.responseRule) {
+        return;
+      }
+
+      const responseModification = this.responseRule.pairs[0].response;
+      const responseType = this.responseType;
+      const contentType = this.getResponseHeader("content-type");
+
+      isDebugMode &&
+        console.log("RQ", "Inside the XHR onReadyStateChange block for url", {
+          url: this.requestURL,
+          xhr: this,
+        });
+
+      if (this.readyState === this.HEADERS_RECEIVED) {
+        // For network failures, responseStatus=0 but we still return customResponse with status=200
+        const responseStatus = parseInt(responseModification.statusCode || this.status) || 200;
+        const responseStatusText = responseModification.statusText || this.statusText;
+
+        Object.defineProperty(this, "status", {
+          get: () => responseStatus,
+        });
+
+        Object.defineProperty(this, "statusText", {
+          get: () => responseStatusText,
+        });
+      }
+
+      if (this.readyState === this.DONE) {
+        let customResponse =
+          responseModification.type === "code"
+            ? getFunctionFromCode(responseModification.value)({
+                method: this.method,
+                url: this.requestURL,
+                requestHeaders: this.requestHeaders,
+                requestData: jsonifyValidJSONString(this.requestData),
+                responseType: contentType,
+                response: this.response,
+                responseJSON: jsonifyValidJSONString(this.response, true),
+              })
+            : responseModification.value;
+
+        // Convert customResponse back to rawText
+        // response.value is String and evaluator method might return string/object
+        if (isPromise(customResponse)) {
+          customResponse = await customResponse;
+        }
+
+        const isUnsupportedResponseType = responseType && !["json", "text"].includes(responseType);
+
+        // We do not support statically modifying responses of type - blob, arraybuffer, document etc.
+        if (responseModification.type === "static" && isUnsupportedResponseType) {
+          customResponse = this.response;
+        }
+
+        if (
+          !isUnsupportedResponseType &&
+          typeof customResponse === "object" &&
+          !(customResponse instanceof Blob) &&
+          (responseType === "json" || isContentTypeJSON(contentType))
+        ) {
+          customResponse = JSON.stringify(customResponse);
+        }
+
+        Object.defineProperty(this, "response", {
+          get: function () {
+            if (responseModification.type === "static" && responseType === "json") {
+              if (typeof customResponse === "object") {
+                return customResponse;
+              }
+
+              return jsonifyValidJSONString(customResponse);
+            }
+
+            return customResponse;
+          },
+        });
+
+        if (responseType === "" || responseType === "text") {
+          Object.defineProperty(this, "responseText", {
+            get: function () {
+              return customResponse;
+            },
+          });
+        }
+
+        const requestDetails = {
+          url: this.requestURL,
+          method: this.method,
+          type: "xmlhttprequest",
+          timeStamp: Date.now(),
+        };
+
+        notifyResponseRuleApplied({
+          rule: this.responseRule,
+          requestDetails,
+        });
+      }
+    }
+  };
+
+  const resolveXHR = (xhr, responseData) => {
+    Object.defineProperty(xhr, "readyState", { writable: true });
+    const updateReadyState = (readyState) => {
+      xhr.readyState = readyState;
+      xhr.dispatchEvent(new CustomEvent("readystatechange"));
+    };
+    const dispatchProgressEvent = (type) => {
+      xhr.dispatchEvent(new ProgressEvent(type));
+    };
+
+    dispatchProgressEvent("loadstart");
+
+    // update response headers
+    const contentType = isJSON(responseData) ? "application/json" : "text/plain";
+    xhr.getResponseHeader = (key) => {
+      if (key.toLowerCase() === "content-type") {
+        return contentType;
+      }
+      return null;
+    };
+    updateReadyState(xhr.HEADERS_RECEIVED);
+
+    // mark resolved
+    updateReadyState(xhr.DONE);
+    dispatchProgressEvent("load");
+    dispatchProgressEvent("loadend");
+  };
+
+  const XHR = XMLHttpRequest;
+  XMLHttpRequest = function () {
+    const xhr = new XHR();
+    xhr.addEventListener("readystatechange", onReadyStateChange.bind(xhr), false);
+    return xhr;
+  };
+  XMLHttpRequest.prototype = XHR.prototype;
+  Object.entries(XHR).map(([key, val]) => {
+    XMLHttpRequest[key] = val;
+  });
+
+  const open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (method, url) {
+    this.method = method;
+    this.requestURL = getAbsoluteUrl(url);
+    open.apply(this, arguments);
+  };
+
+  const send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function (data) {
+    this.requestData = data;
+
+    const requestRule = getRequestRule(this.requestURL);
+    if (requestRule) {
+      this.requestData = getCustomRequestBody(requestRule, {
+        method: this.method,
+        url: this.requestURL,
+        body: data,
+        bodyAsJson: jsonifyValidJSONString(data, true),
+      });
+
+      notifyRequestRuleApplied({
+        ruleDetails: requestRule,
+        requestDetails: {
+          url: this.requestURL,
+          method: this.method,
+          type: "xmlhttprequest",
+          timeStamp: Date.now(),
+        },
+      });
+    }
+
+    this.responseRule = getResponseRule({
+      url: this.requestURL,
+      requestData: jsonifyValidJSONString(this.requestData),
+      method: this.method,
+    });
+
+    if (this.responseRule && shouldServeResponseWithoutRequest(this.responseRule)) {
+      resolveXHR(this, this.responseRule.pairs[0].response.value);
+    } else {
+      send.call(this, this.requestData);
+    }
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function (header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  };
+
+  // Intercept fetch API
+  const _fetch = fetch;
+  fetch = async (...args) => {
+    const [resource, initOptions = {}] = args;
+    const getOriginalResponse = () => _fetch(...args);
+
+    let request;
+
+    if (resource instanceof Request) {
+      request = resource.clone();
+    } else {
+      request = new Request(resource.toString(), initOptions);
+    }
+
+    const url = getAbsoluteUrl(request.url);
+    const method = request.method;
+    // Request body can be sent only for request methods other than GET and HEAD.
+    const canRequestBodyBeSent = !["GET", "HEAD"].includes(method);
+
+    const requestRule = canRequestBodyBeSent && getRequestRule(url);
+    if (requestRule) {
+      const originalRequestBody = await request.text();
+      const requestBody =
+        getCustomRequestBody(requestRule, {
+          method: request.method,
+          url,
+          body: originalRequestBody,
+          bodyAsJson: jsonifyValidJSONString(originalRequestBody, true),
+        }) || {};
+
+      request = new Request(request.url, {
+        method,
+        body: requestBody,
+        headers: request.headers,
+        referrer: request.referrer,
+        referrerPolicy: request.referrerPolicy,
+        mode: request.mode,
+        credentials: request.credentials,
+        cache: request.cache,
+        redirect: request.redirect,
+        integrity: request.integrity,
+      });
+
+      notifyRequestRuleApplied({
+        ruleDetails: requestRule,
+        requestDetails: {
+          url,
+          method: request.method,
+          type: "fetch",
+          timeStamp: Date.now(),
+        },
+      });
+    }
+
+    let requestData;
+    if (canRequestBodyBeSent) {
+      requestData = jsonifyValidJSONString(await request.clone().text()); // cloning because the request will be used to make API call
+    }
+
+    const responseRule = getResponseRule({ url, requestData, method });
+    let responseHeaders;
+    let fetchedResponse;
+
+    if (responseRule && shouldServeResponseWithoutRequest(responseRule)) {
+      const contentType = isJSON(responseRule.pairs[0].response.value) ? "application/json" : "text/plain";
+      responseHeaders = new Headers({ "content-type": contentType });
+    } else {
+      try {
+        if (requestRule) {
+          // use modified request to fetch response
+          fetchedResponse = await _fetch(request);
+        } else {
+          fetchedResponse = await getOriginalResponse();
+        }
+
+        if (!responseRule) {
+          return fetchedResponse;
+        }
+
+        responseHeaders = fetchedResponse?.headers;
+      } catch (error) {
+        if (!responseRule) {
+          return Promise.reject(error);
+        }
+      }
+    }
+
+    isDebugMode &&
+      console.log("RQ", "Inside the fetch block for url", {
+        url,
+        resource,
+        initOptions,
+        fetchedResponse,
+      });
+
+    let customResponse;
+    const responseModification = responseRule.pairs[0].response;
+
+    if (responseModification.type === "code") {
+      const requestHeaders =
+        request.headers &&
+        Array.from(request.headers).reduce((obj, [key, val]) => {
+          obj[key] = val;
+          return obj;
+        }, {});
+
+      let evaluatorArgs = {
+        method,
+        url,
+        requestHeaders,
+        requestData,
+      };
+
+      if (fetchedResponse) {
+        const fetchedResponseData = await fetchedResponse.text();
+        const responseType = fetchedResponse.headers.get("content-type");
+        const fetchedResponseDataAsJson = jsonifyValidJSONString(fetchedResponseData, true);
+
+        evaluatorArgs = {
+          ...evaluatorArgs,
+          responseType,
+          response: fetchedResponseData,
+          responseJSON: fetchedResponseDataAsJson,
+        };
+      }
+
+      customResponse = getFunctionFromCode(responseModification.value)(evaluatorArgs);
+
+      // evaluator might return us Object but response.value is string
+      // So make the response consistent by converting to JSON String and then create the Response object
+      if (isPromise(customResponse)) {
+        customResponse = await customResponse;
+      }
+
+      if (typeof customResponse === "object" && isContentTypeJSON(evaluatorArgs?.responseType)) {
+        customResponse = JSON.stringify(customResponse);
+      }
+    } else {
+      customResponse = responseModification.value;
+    }
+
+    const requestDetails = {
+      url,
+      method,
+      type: "fetch",
+      timeStamp: Date.now(),
+    };
+
+    notifyResponseRuleApplied({
+      rule: responseRule,
+      requestDetails,
+    });
+
+    // For network failures, fetchedResponse is undefined but we still return customResponse with status=200
+    const finalStatusCode = parseInt(responseModification.statusCode || fetchedResponse?.status) || 200;
+    const requiresNullResponseBody = [204, 205, 304].includes(finalStatusCode);
+
+    return new Response(requiresNullResponseBody ? null : new Blob([customResponse]), {
+      status: finalStatusCode,
+      statusText: responseModification.statusText || fetchedResponse?.statusText,
+      headers: responseHeaders,
+    });
+  };
+})('__REQUESTLY__')</script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app200.us.archive.org';v.server_ms=331;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://core.arc.io/broker.html?c6b0387","20210606041402","http://web.archive.org/","web","/_static/",
+	      "1622952842");
+</script>
+<link rel="stylesheet" type="text/css" href="./banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+<!--<base target="_parent">--><base href="." target="_parent"><title>Arc Widget Broker</title><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="http://web.archive.org/web/20210606041402im_/https://static.arc.io/favicon.ico"><link href="http://web.archive.org/web/20210606041402/https://static.arc.io/broker/js/lazy-iwc.9b430e25.js" rel="prefetch"><link href="http://web.archive.org/web/20210606041402/https://static.arc.io/broker/js/lazy-modules.a169b1ec.js" rel="prefetch"><link href="./broker.8ade32c4.js" rel="modulepreload" as="script"><link href="./chunk-vendors.85cb0bd7.js" rel="modulepreload" as="script"><style>body {
+            font-size: 20px;
+        }</style><script charset="utf-8" src="./lazy-modules.a169b1ec.js"></script></head><body><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;"><template shadowrootmode="closed"><div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position: relative; width: 100%; display: none;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=http%3A//web.archive.org/web/20210606041402/https%3A//core.arc.io/broker.html%3Fc6b0387" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="http://web.archive.org/web/" title="Wayback Machine home page"><img src="http://web.archive.org/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0"></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="http://web.archive.org/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://core.arc.io/broker.html?c6b0387" onfocus="this.focus();this.select();" style="flex:1;" autocomplete="off"><input type="hidden" name="type" value="replay"><input type="hidden" name="date" value="20210606041402"><input type="submit" value="Go">
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+                <div class="s" id="wm-nav-captures" style="flex:1;"><a class="t" href="http://web.archive.org/web/*/https://core.arc.io/broker.html?c6b0387" title="See a list of every capture for this URL">81 captures</a><div class="r" title="Timespan for captures of this URL">2 Jun 2021 - 9 Jun 2021</div></div>
+        <div class="k">
+          <a href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387" id="wm-graph-anchor">
+            <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+              <canvas id="wm-sparkline-canvas" width="700" height="27" border="0"></canvas>
+            <div class="yt" style="display: none; width: 25px; height: 27px;"></div><div class="mt" style="display: none; width: 2px; height: 27px;"></div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+        <tbody>
+          <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+          <tr class="m">
+            <td class="b" nowrap="nowrap">May</td>
+            <td class="c" id="displayMonthEl" title="You are here: 04:14:02 Jun 06, 2021">JUN</td>
+            <td class="f" nowrap="nowrap">Jul</td>
+          </tr>
+          <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+          <tr class="d">
+            <td class="b" nowrap="nowrap"><a href="http://web.archive.org/web/20210605040916/https://core.arc.io/broker.html?c6b0387" title="04:09:16 Jun 05, 2021"><img src="http://web.archive.org/_static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0"></a></td>
+            <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 04:14:02 Jun 06, 2021">06</td>
+            <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20210607043857/https://core.arc.io/broker.html?c6b0387" title="04:38:57 Jun 07, 2021"><img src="http://web.archive.org/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"></a></td>
+          </tr>
+          <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+          <tr class="y">
+            <td class="b" nowrap="nowrap">2020</td>
+            <td class="c" id="displayYearEl" title="You are here: 04:14:02 Jun 06, 2021">2021</td>
+            <td class="f" nowrap="nowrap">2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+                <span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387#" title="Share via My Web Archive" style="display: none;">
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in" style="display: inline-block;">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web" style="display: none;"></span>
+        </span>
+                <a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+        <a id="wm-tb-close" href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="http://web.archive.org/web/20210606041402/http://web.archive.org/screenshot/https://core.arc.io/broker.html?c6b0387" id="wm-screenshot" title="screenshot" style="visibility: hidden;">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+        <a id="wm-share-facebook" href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387#" data-url="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+        <a id="wm-share-twitter" href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387#" data-url="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+        <a id="wm-expand" class="wm-btn wm-closed" href="http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+        <div id="wm-capinfo-notice" source="api"></div>
+                <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/save-page-now)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/save-page-now" target="_new"><span class="wm-title">Save Page Now</span></a></div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="http://web.archive.org/_static/images/loading.gif" alt="loading"></div>
+    </div>
+    </div>
+  </div></div></div><link rel="stylesheet" type="text/css" href="./banner-styles.css"><link rel="stylesheet" type="text/css" href="./iconochive.css"><div class="wb-autocomplete-suggestions "></div></template>
+</div><div id="wm-ipp-print">The Wayback Machine - http://web.archive.org/web/20210606041402/https://core.arc.io/broker.html?c6b0387</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(700,27,25,2,"web","https://core.arc.io/broker.html?c6b0387","20210606041402",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ <h4>Arc Broker</h4><p>You found me. You're quite clever, aren't you?</p><p>Interested in a job? We'd love to meet you. <a href="http://web.archive.org/web/20210606041402/https://arc.io/careers">https://arc.io/careers</a></p><script type="module" src="./chunk-vendors.85cb0bd7.js"></script><script type="module" src="./broker.8ade32c4.js"></script><script>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()},!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script><script src="./chunk-vendors-legacy.1d9bbfa7.js" nomodule=""></script><script src="./broker-legacy.6c0ab341.js" nomodule=""></script>
+</body></html>
